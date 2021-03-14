@@ -1,3 +1,11 @@
+*, *::after, *::before{
+    box-sizing: border-box;  
+    margin: 0px;
+    padding: 0px;  
+    font-family: 'Montserrat',sans-serif ;    
+  }
+
 body{
-    background-color: white;
+    background-color: white;     
 }
+

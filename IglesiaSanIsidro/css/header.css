@@ -1,0 +1,86 @@
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+nav{
+    background-color: #1fbfb8;
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    top: 0px;    
+    inline-size: 5em;
+    margin-left: 40px;
+}
+
+.nav-main ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-main ul li{    
+    display: inline-block; 
+    line-height: 80px;
+    margin: 10px 5px;
+}
+
+.nav-main ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 40px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav-main ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-main ul li a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.nav-main ul li a:focus::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.nav-content{
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    background-color: #1fbfb8;
+    color: white;
+    max-height: 0;
+}
+
+.nav-sub{
+    padding: 20px;
+}
+
+.nav-sub ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-sub ul li a{
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px 0;
+}
+
+.nosotros:focus ~ .nav-content{
+    max-height: 400px;
+    -webkit-transition: max-height 0.5s ease-in;
+    -moz-transition: max-height 0.5s ease-in;
+    transition: max-height 0.5s ease-in;
+}
