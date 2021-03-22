@@ -3,12 +3,22 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
     background: #1fbfb8;
     position: relative;
     padding: 1rem 7rem;
+}
+
+p{
+    color: white;
+}
+
+img{    
+    margin: 0px 10px;  
+      
 }
 
 strong {

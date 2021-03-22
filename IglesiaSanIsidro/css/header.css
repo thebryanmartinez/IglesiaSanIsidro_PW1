@@ -46,8 +46,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: cyan;
-  border-radius: 5px;
+  color:aqua; 
 }
 
 nav ul ul{
