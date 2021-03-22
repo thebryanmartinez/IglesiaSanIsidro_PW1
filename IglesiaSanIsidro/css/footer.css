@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #1fbfb8;
+    position: relative;
+    padding: 1rem 7rem;
+}
+
+strong {
+    color: #27ece3;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 159px);
+}
+
+div {
+    display: block;
+}
+
+.footer .footer-content {
+    display: flex;
+}
+
+.footer .footer-content .info {
+    display: 1;
+    padding: 3px 30px;
+}
+
+.footer .footer-content .Siguenos {
+    display: 1;
+    position: absolute;
+    bottom: 1.2rem;
+    right: 10rem;
+}
+
+@media (max-width: 1228px) {
+    .footer .footer-content .Siguenos {
+        bottom: 1.2rem;
+        right: 4rem;
+    }
+}
+
+@media (max-width: 1130px) {
+    .footer .footer-content .Siguenos {
+        bottom: 1.2rem;
+        right: 1rem;
+    }
+}
+
+@media (max-width: 1074px) {
+    .footer .footer-content .info {
+        display: 1;
+        padding: 3px 2px;
+    }
+    footer {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width: 985px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100vh - 176px);
+    }
+    footer {
+        text-align: center;
+        background: #1fbfb8;
+        position: relative;
+        padding: 0.1rem 2rem 3rem 4rem;
+    }
+    .footer .footer-content .Siguenos {
+        bottom: 0.5rem;
+        right: 26rem;
+    }
+}
+
+@media (max-width: 910px) {
+    .footer .footer-content .Siguenos {
+        bottom: 0.5rem;
+        right: 22rem;
+    }
+}
+
+@media (max-width: 838px) {
+    .footer .footer-content .Siguenos {
+        bottom: 0.5rem;
+        right: 18rem;
+    }
+}
+
+@media (max-width: 748px) {
+    .footer .footer-content .Siguenos {
+        bottom: 0.5rem;
+        right: 15rem;
+    }
+}
+
+@media (max-width: 612px) {
+    .footer .footer-content .Siguenos {
+        bottom: 0.5rem;
+        right: 10rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer .footer-content .Siguenos {
+        bottom: 0.5rem;
+        right: 5rem;
+    }
+}
