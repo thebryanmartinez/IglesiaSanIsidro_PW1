@@ -82,7 +82,7 @@ nav ul ul li{
   margin-left: 40px;
 }
 
-@media (max-width: 965px) {
+@media (max-width: 990px) {
   nav ul{
     margin-right: 0px;
     float: left;
