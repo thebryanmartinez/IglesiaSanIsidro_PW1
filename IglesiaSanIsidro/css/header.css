@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+header{
+    z-index: 9999;
+}
+
 nav {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -12,6 +16,7 @@ nav {
 }
 
 nav:after {
+    z-index: 9998;
     content: '';
     clear: both;
     display: table;
@@ -62,12 +67,14 @@ nav ul ul ul {
 }
 
 nav ul li:hover>ul {
+    z-index: 9997;
     top: 90px;
     opacity: 1;
     visibility: visible;
 }
 
 nav ul ul li {
+    z-index: 9996;
     position: relative;
     margin: 0px;
     width: 240px;
@@ -80,6 +87,7 @@ nav ul ul li {
 }
 
 .fa-plus {
+    z-index: 9994;
     font-size: 15px;
     margin-left: 40px;
 }
