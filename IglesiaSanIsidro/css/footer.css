@@ -12,13 +12,12 @@ footer {
     padding: 1rem 7rem;
 }
 
-p{
+footer p {
     color: white;
 }
 
-img{    
-    margin: 0px 10px;  
-      
+img {
+    margin: 0px 10px;
 }
 
 .footer-dentro {
@@ -26,7 +25,6 @@ img{
 }
 
 main {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 159px);
@@ -78,7 +76,6 @@ div {
 
 @media (max-width: 985px) {
     main {
-        display: flex;
         justify-content: center;
         align-items: center;
         min-height: calc(100vh - 176px);
