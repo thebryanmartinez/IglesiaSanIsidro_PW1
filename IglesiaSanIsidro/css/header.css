@@ -75,9 +75,7 @@ nav ul ul li {
     display: list-item;
 }
 
-header .show,
-header .icon,
-header input {
+.show, .icon, header input {
     display: none;
 }
 
