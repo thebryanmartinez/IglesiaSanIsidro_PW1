@@ -1,0 +1,191 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: (0px, auto);
+    width: 100%;
+    margin: 0;    
+    grid-gap: 10px;
+    position: relative;
+}
+
+.heropanel{
+    margin: 0px;
+    grid-column: 0/13;       
+}
+
+.heropanel img{
+    background-color: red;
+    width: 100vw;
+    margin: 0px;
+    filter: brightness(50%);
+}
+
+.heropanel h1{
+    margin: 135px 0px;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    font-size: 24px;
+    color: white;
+    z-index: 100;
+}
+
+.peticiones{ 
+    grid-row: 2;
+    width: 100vw;
+    font-size: 18px;
+    color: white;   
+    margin: 0px;    
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.peticiones h2{    
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-peticiones{  
+    grid-row: 3;    
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-peticiones p{
+    color: black;
+    text-align: left;
+}
+
+.btnpeticion{
+    border: none;
+    grid-row: 4;
+    width: 232px;
+    height: 38px;
+    font-size: 18px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: white;
+    margin: 0px auto 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+    text-align: center;
+    cursor: pointer;
+}
+
+.testimonios{ 
+    grid-row: 5;
+    width: 100vw;
+    font-size: 18px;
+    color: white;   
+    margin: 0px;    
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.testimonios h2{    
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-testimonios{  
+    grid-row: 6;    
+    margin: 40px 22px 25px 22px;  
+    color: red;
+    font-size: 18px;
+}
+
+.texto-testimonios p{
+    color: black;
+    text-align: left;
+}
+
+.btntestimonio{
+    border: none;
+    grid-row: 7;
+    width: 232px;
+    height: 38px;
+    font-size: 18px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: white;
+    margin: 0px auto 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    cursor: pointer;
+}
+
+.publicaciones{ 
+    grid-row: 8;
+    width: 100vw;
+    font-size: 18px;
+    color: white;   
+    margin: 0px;    
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.publicaciones h2{    
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.CardHolder{
+    grid-row: 9;
+    margin-bottom: 40px;
+}
+
+.Card{
+    position: relative;
+    background-color: #fff;
+    padding: 1rem;
+    border:1px solid black;
+    width: 307px;
+    height: 364px;
+    margin: 40px auto 0px auto;    
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #000;
+
+  }
+
+.Card p{
+    text-align: left;
+    color: black;
+}
+  
+.Card .CardHeader{
+    display: flex;
+    margin: -1rem 0px 1rem -1rem;
+    width:calc(100% + 2rem);
+    background-color: #1fbfb8;
+    color: white;
+    padding: 1rem;
+}
+ 
+.Card .corazon{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 10px 10px 0px;
+}
+
+.Card .corazon p{
+    font-size: 12px;
+}
+  
+.Card .corazonsvg:hover{
+    cursor: pointer;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}

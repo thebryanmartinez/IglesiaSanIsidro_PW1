@@ -43,7 +43,131 @@
         </nav>
     </header>
     <main>
-
+        <section class="heropanel">
+            <h1>Donaciones</h1>
+            <picture>
+                <source srcset="img/donacion/heropanel-lg.jpg" media="(min-width:1025px)" />
+                <source srcset="img/donacion/heropanel-md.jpg" media="(min-width:600px)" />
+                <img src="img/donacion/heropanel-sm.jpg" alt="">
+            </picture>
+        </section>
+        <div class="texto-donaciones-superior">
+            <p>
+                Las donaciones nos ayudan a nuestros
+                ministerios para mejorar la vida de
+                nuestros residentes.
+                Nos ayuda a nosotros como Iglesia a
+                crecer y ayudar a las personas.
+            </p>
+            <br>
+            <p>
+                Los objetos que buscamos para nuestras
+                instalaciones y ministerios son: <br>
+                - Juguetes <br>
+                - Ropa en buen estado <br>
+                - Viveres <br>
+                - Libros <br>
+                - Medicamentos
+            </p>
+        </div>
+        <div class="texto-donaciones-inferior">
+            <p>
+                Incluso puede hacer un pago con
+                tarjeta o en efectivo si desea
+                donar de forma monetaria
+            </p>
+            <br>
+            <p>
+                Puede pasar dejando sus donaciones
+                en nuestra instalacion principal, 
+                la Iglesia San Isidro. Si tiene preguntas
+                u informacion de nuestra ubicacion
+                puede hacerlo hablando a nuestros
+                telefonos, mandarnos un correo o
+                ubicarnos en nuestro apartado de
+                "Quienes somos"
+            </p>
+        </div>
+        <button class="btnquienessomos" onclick="location.href='quienessomos.html'">            
+            <h3>Quienes somos</h3>       
+        </button>
+        <div class="donacionesenlinea">
+            <h2>Donaciones en linea</h2>
+        </div>
+        <div class="texto-donaciones">
+            <p>
+                Tambien puede realizar donaciónes en
+                línea de manera monetaria por medio de nuestra pagina web.
+                Los campos con <strong>*</strong> son obligatorios
+            </p>
+        </div>
+        <form action="" method="POST" class="entradadedatos">
+            <fieldset>
+                <div>                                
+                <label for="txtNombre">Nombre Completo:</label> <strong>*</strong> <br> 
+                <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu nombre completo" />
+                <br/>
+                </div>
+                <div>                
+                <label for="txtPhone">Telefono:</label> <br>
+                <input id="txtPhone" name="txtPhone" type="tel" placeholder="+(504)dddddddd" />
+                <br/>
+                </div>
+                <div>                
+                <label for="txtEmail">Correo Electronico:</label> <br>
+                <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorre@electro.nico" />
+                <br/>
+                </div>
+                <div>                
+                <label for="txtDonar">Monto a donar: <strong>*</strong></label> <br>
+                <input id="txtDonar" name="txtDonar" type="number" placeholder="Monto a donar" />
+                <br/>
+                </div>
+                <div>                
+                <label for="txtCuenta">Numero de cuenta: <strong>*</strong></label> <br>
+                <input id="txtCuenta" name="txtCuenta" type="text" placeholder="Tu numero de cuenta" />
+                <br/>
+                </div>
+                <div>                
+                <label for="txtMensaje">Mensaje (Opcional): <strong>*</strong></label> <br>
+                <input id="txtMensaje" name="txtMensaje" type="text" placeholder="" />
+                <br/>
+                </div>
+            </fieldset>            
+        </form>
+        <button class="btndonar">            
+            <h3>Donar</h3> 
+        </button>
+        <div class="porquedonar">
+            <h2>¿Porque donar?</h2>
+        </div>
+        <div class="texto-porque-donar">
+            <picture>
+                <source srcset="img/donacion/niños-jugando-lg.jpg" media="(min-width:1025px)" />
+                <source srcset="img/donacion/niños-jugando-md.jpg" media="(min-width:600px)" />
+                <img src="img/donacion/niños-jugando-sm.jpg" alt="">
+            </picture>
+            <p>
+                Donar a nuestra causa ayuda a personas
+                necesitadas. A personas que son pobres
+                a pesar de vivir en un mundo rico. Personas
+                que creen que lo perdieron todo, que no 
+                tienen mas oportunidades en esta vida.
+                Por medio de nuestra causa les podemos 
+                enseñar sobre nuestro Salvador, que 
+                aunque uno no se sienta querido, Dios 
+                siempre va a estar con uno. Tambien tu nos
+                puedes ayudar con nuestra causa por tus 
+                donaciones.
+                Ayudanos a salvar personas de la perdicion! 
+            </p>
+            <picture>
+                <source srcset="img/donacion/iglesia-lg.jpg" media="(min-width:1025px)" />
+                <source srcset="img/donacion/iglesia-md.jpg" media="(min-width:600px)" />
+                <img src="img/donacion/iglesia-sm.jpg" alt="">
+            </picture>
+        </div>
+        <br><br>
     </main>
     <footer>
         <div class="footer">
@@ -60,8 +184,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
 </body>
-
 </html>

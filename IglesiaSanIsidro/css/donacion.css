@@ -1,0 +1,171 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.heropanel{
+    margin: 0px;         
+}
+
+.heropanel img{
+    width: 100vw;
+    margin: 0px;
+    filter: brightness(50%);
+}
+
+.heropanel h1{
+    margin: 100px 0px;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    font-size: 24px;
+    color: white;
+    z-index: 100;
+}
+
+.texto-donaciones-superior{    
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-donaciones-superior p{
+    color: black;
+    text-align: left;
+}
+
+.texto-donaciones-inferior{    
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-donaciones-inferior p{
+    color: black;
+    text-align: left;
+}
+
+.btnquienessomos{
+    border: none;
+    width: 232px;
+    height: 38px;
+    font-size: 18px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: white;
+    margin: 0px auto 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+    text-align: center;
+    cursor: pointer;
+}
+
+.donacionesenlinea{     
+    width: 100vw;
+    font-size: 18px;
+    color: white;   
+    margin: 0px;    
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.donacionesenlinea h2{    
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.texto-donaciones{    
+    margin: 40px 22px 0px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-donaciones p{
+    color: black;
+    text-align: left;
+}
+
+.texto-donaciones strong{
+    color: red;
+}
+
+.entradadedatos{    
+    text-align: left;
+    margin: 0px 24px;
+}
+
+.entradadedatos strong{
+    color: red;
+}
+
+.entradadedatos div{
+    margin: 25px 0px 0px;
+}
+
+.entradadedatos label, .entradadedatos fieldset{    
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    ;
+}
+
+.entradadedatos input{
+    border: 2px solid black;
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+}
+
+.entradadedatos #txtMensaje{
+    padding: 0px 0px 80px;
+}
+
+.btndonar{
+    border: none;    
+    width: 232px;
+    height: 38px;
+    font-size: 18px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: white;
+    margin: 25px auto 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+    text-align: center;
+    cursor: pointer;
+}
+
+.porquedonar{     
+    width: 100vw;
+    font-size: 18px;
+    color: white;   
+    margin: 0px;    
+    height: 50px;
+    background-color: #1fbfb8;    
+}
+
+.porquedonar h2{    
+    padding: 5px;
+    vertical-align: middle;
+    
+}
+
+.texto-porque-donar{
+    margin: 40px 24px 0px;
+}
+
+.texto-porque-donar img{
+    margin: 0px;
+    width: 100%;                                                                                                                      
+}
+
+.texto-porque-donar p{
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin: 25px 0px;
+}
