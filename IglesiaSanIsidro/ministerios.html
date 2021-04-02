@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/ministerios.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ministerios.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -42,7 +43,60 @@
             </ul>
         </nav>
     </header>
+    <section>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+
+                <div class="text">Casa Hogar</div>
+                <picture>
+                    <source media="(min-width:1025px)" srcset="img/ministerio/img1_md.png" />
+                    <source media="(min-width:720px)" srcset="img/ministerio/img1_sm.png" />
+                    <img alt="Imagen casa Hogar" src="img/ministerio/img1_lg.png" />
+                </picture>
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <div class="text">Casa Hogar</div>
+                <picture>
+                    <source media="(min-width:1025px)" srcset="img/ministerio/img2_md.png" />
+                    <source media="(min-width:720px)" srcset="img/ministerio/img2_sm.png" />
+                    <img alt="Imagen casa Hogar" src="img/ministerio/img2_lg.png" />
+                </picture>
+            </div>
+
+            <div class="mySlides fade">
+
+                <div class="text">Casa Hogar</div>
+                <picture>
+                    <source media="(min-width:1025px)" srcset="img/ministerio/img3_md.png" />
+                    <source media="(min-width:720px)" srcset="img/ministerio/img3_sm.png" />
+                    <img alt="Imagen casa Hogar" src="img/ministerio/img3_lg.png" />
+                </picture>
+            </div>
+
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
     <main>
+        <p>Casa Hogar CEAD: es un proyecto sin fines de lucro, cuya responsabilidad es proveer alimento, vivienda, educación, vestuario, salud y la educación integral para el sano desarrollo de los niños y niñas en riesgo social de nuestro país. Muchos de
+            los niños que son parte del proyecto son rescatados de abuso físico y emocional, negligencia y de hogares en extrema pobreza. Mision: El proyecto alberga a más de 40 niños y se compone actualmente de ocho viviendas, un centro de reuniones,
+            un centro educativo, una casa pastoral y una vivienda para personal de seguridad.</p>
+
 
     </main>
     <footer>
@@ -62,5 +116,6 @@
         </div>
     </footer>
 </body>
+<script src="js/ministerio.js"></script>
 
 </html>

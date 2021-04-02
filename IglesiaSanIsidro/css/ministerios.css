@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    align-items: center;
+    margin: auto auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #000000cc;
+}
+
+.text {
+    box-sizing: border-box;
+    color: #f2f2f2;
+    font-size: 3rem;
+    padding: 3rem 1rem;
+    position: absolute;
+    bottom: 8px;
+    width: 103%;
+    height: 1em;
+    text-align: center;
+    top: 0;
+}
+
+.text:hover {
+    background-color: #000000cc;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+main {
+    border-style: ridge;
+    margin: 16px;
+    margin-right: -2rem;
+    padding: 8px 12px;
+    background-color: #a2f8fa;
+    border-radius: 24px;
+    align-content: flex-start;
+}
+
+main p {
+    color: black;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 2.1em;
+    /*font-weight: bold;*/
+    padding: 0px 1rem;
+    line-height: 2;
+    text-shadow: 1px 1px 1px #333;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media (min-width: 640px) {
+    main {
+        max-width: 700px;
+        height: fit-content;
+        margin: 1rem auto;
+    }
+    .slideshow-container {
+        max-width: 640px;
+        padding-top: 2rem;
+        position: relative;
+        align-items: center;
+        margin: auto auto;
+    }
+}
+
+@media (min-width:1200px) {
+    main {
+        max-width: 1500px;
+        height: fit-content;
+        margin: 1rem auto;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 3rem;
+        position: relative;
+        align-items: center;
+        margin: auto auto;
+    }
+}
