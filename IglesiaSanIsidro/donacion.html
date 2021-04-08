@@ -104,34 +104,44 @@
         <form action="" method="POST" class="entradadedatos">
             <fieldset>
                 <div>                                
-                <label for="txtNombre">Nombre Completo:</label> <strong>*</strong> <br> 
-                <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu nombre completo" />
-                <br/>
+                    <label for="txtNombre">Nombre Completo:</label> <strong>*</strong> <br> 
+                    <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu nombre completo" />
+                    <br/>
                 </div>
                 <div>                
-                <label for="txtPhone">Telefono:</label> <br>
-                <input id="txtPhone" name="txtPhone" type="tel" placeholder="+(504)dddddddd" />
-                <br/>
+                    <label for="txtPhone">Telefono:</label> <br>
+                    <input id="txtPhone" name="txtPhone" type="tel" placeholder="+(504)dddddddd" />
+                    <br/>
                 </div>
                 <div>                
-                <label for="txtEmail">Correo Electronico:</label> <br>
-                <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorre@electro.nico" />
-                <br/>
+                    <label for="txtEmail">Correo Electronico:</label> <br>
+                    <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorre@electronico.com" />
+                    <br/>
                 </div>
                 <div>                
-                <label for="txtDonar">Monto a donar: <strong>*</strong></label> <br>
-                <input id="txtDonar" name="txtDonar" type="number" placeholder="Monto a donar" />
-                <br/>
+                    <label for="txtCuenta">Opción para que area ayudar con su donación: <strong>*</strong></label> <br>
+                    <select name="selectarea" id="selectarea">
+                        <option value="ofrenda">Ofrenda</option>
+                        <option value="diezmo">Diezmo</option>
+                        <option value="alimentos">Alimentos</option>
+                        <option value="ministerios">Ministerios</option>    
+                    </select>
+                    <br/>
                 </div>
                 <div>                
-                <label for="txtCuenta">Numero de cuenta: <strong>*</strong></label> <br>
-                <input id="txtCuenta" name="txtCuenta" type="text" placeholder="Tu numero de cuenta" />
-                <br/>
+                    <label for="txtDonar">Monto a donar: <strong>*</strong></label> <br>
+                    <input id="txtDonar" name="txtDonar" type="number" placeholder="Monto a donar" />
+                    <br/>
                 </div>
                 <div>                
-                <label for="txtMensaje">Mensaje (Opcional): <strong>*</strong></label> <br>
-                <input id="txtMensaje" name="txtMensaje" type="text" placeholder="" />
-                <br/>
+                    <label for="txtCuenta">Numero de cuenta: <strong>*</strong></label> <br>
+                    <input id="txtCuenta" name="txtCuenta" type="text" placeholder="Tu numero de cuenta" />
+                    <br/>
+                </div>
+                <div>                
+                    <label for="txtMensaje">Mensaje (Opcional):</label> <br>
+                    <textarea name="txtMensaje" id="txtMensaje" cols="10" rows="1"></textarea>
+                    <br/>
                 </div>
             </fieldset>            
         </form>

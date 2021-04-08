@@ -7,16 +7,19 @@
 main{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .heropanel{
-    margin: 0px;         
+    display: flex;
+    margin: 0px;
+    align-items: center;         
 }
 
-.heropanel img{
+.heropanel img{    
     width: 100vw;
     margin: 0px;
-    filter: brightness(50%);
+    filter: brightness(50%);    
 }
 
 .heropanel h1{
@@ -117,8 +120,9 @@ main{
 .entradadedatos input{
     border: 2px solid black;
     width: 100%;
-    padding: 12px 0px;
+    padding: 5px 0px;
     margin: 8px 0;
+    font-size: 18px;
 }
 
 .entradadedatos #txtMensaje{
@@ -168,4 +172,17 @@ main{
     font-size: 18px;
     text-align: left;
     margin: 25px 0px;
+}
+
+.entradadedatos textarea{
+    border: 2px solid black;
+    width: 100%;
+    resize: none;
+}
+
+.entradadedatos select{
+    padding: 5px 0px ;
+    font-size: 18px;
+    width: 100%;
+    border: 2px solid black;
 }

@@ -7,21 +7,14 @@
 main{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-}
-
-#content{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: (0px, auto);
-    width: 100%;
-    margin: 0;    
-    grid-gap: 10px;
-    position: relative;
+    overflow-x: hidden;
 }
 
 .heropanel{
-    margin: 0px;
-    grid-column: 0/13;       
+    display: flex;
+    margin: 0px;       
+    align-items: center;
+    justify-content: center;
 }
 
 .heropanel img{
@@ -38,11 +31,10 @@ main{
     width:100%;
     font-size: 24px;
     color: white;
-    z-index: 100;
+    z-index: 1;
 }
 
 .peticiones{ 
-    grid-row: 2;
     width: 100vw;
     font-size: 18px;
     color: white;   
@@ -56,8 +48,7 @@ main{
     vertical-align: middle;
 }
 
-.texto-peticiones{  
-    grid-row: 3;    
+.texto-peticiones{    
     margin: 40px 22px 25px;
     color: red;
     font-size: 18px;
@@ -70,7 +61,6 @@ main{
 
 .btnpeticion{
     border: none;
-    grid-row: 4;
     width: 232px;
     height: 38px;
     font-size: 18px;
@@ -83,8 +73,115 @@ main{
     cursor: pointer;
 }
 
+.bg-modal{    
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+
+
+.modal-content{
+    width: 350px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.modal-content .titulo{
+    font-size: 24px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+}
+
+.formulario-peticion{    
+    text-align: left;
+    margin: 0px 16px;
+}
+
+.formulario-peticion strong{
+    color: red;
+}
+
+.formulario-peticion div{
+    margin: 25px 0px 0px;
+}
+
+.formulario-peticion label, .formulario-peticion fieldset{    
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.formulario-peticion input[type=text], input[type=email]{
+    border: 2px solid black;
+    width: 100%;
+    padding: auto 0px;
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.formulario-peticion .radiobuttons{
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.formulario-peticion .edad input{    
+    padding: 0px;
+    margin: 0px;
+}
+
+.formulario-peticion #txtMensaje{
+    padding: 0px 0px 80px;
+}
+
+.formulario-peticion textarea{
+    border: 2px solid black;
+    width: 100%;
+    resize: none;
+}
+
+.botonespeticion{    
+    padding: 10px 0px 0px;
+    display: flex;
+}
+
+.btnenviarpeticion{
+    float: left;    
+    border: none;
+    width: 170px;
+    height: 38px;
+    font-size: 16px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: white;
+    margin: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+    text-align: center;
+    cursor: pointer;
+}
+
+.btncancelarpeticion{
+    float: right;
+    border: none;
+    margin: 0px 0px 0px 30px;
+    font-size: 16px;
+    height: 38px;
+    background-color: transparent;
+    color: black;        
+    text-align: center;
+    cursor: pointer;
+}
+
 .testimonios{ 
-    grid-row: 5;
     width: 100vw;
     font-size: 18px;
     color: white;   
@@ -98,8 +195,7 @@ main{
     vertical-align: middle;
 }
 
-.texto-testimonios{  
-    grid-row: 6;    
+.texto-testimonios{   
     margin: 40px 22px 25px 22px;  
     color: red;
     font-size: 18px;
@@ -112,7 +208,6 @@ main{
 
 .btntestimonio{
     border: none;
-    grid-row: 7;
     width: 232px;
     height: 38px;
     font-size: 18px;
@@ -126,7 +221,6 @@ main{
 }
 
 .publicaciones{ 
-    grid-row: 8;
     width: 100vw;
     font-size: 18px;
     color: white;   
@@ -141,7 +235,6 @@ main{
 }
 
 .CardHolder{
-    grid-row: 9;
     margin-bottom: 40px;
 }
 
