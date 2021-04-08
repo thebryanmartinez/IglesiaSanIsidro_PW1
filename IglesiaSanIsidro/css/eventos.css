@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #b8e5f5;
+    ;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: (0px, auto);
+    width: 100%;
+    margin: 0;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.heropanel {
+    margin: 0px;
+    grid-column: 0/13;
+}
+
+.heropanel img {
+    background-color: red;
+    width: 100vw;
+    margin: 0px;
+    filter: brightness(50%);
+}
+
+.heropanel h1 {
+    margin: 135px 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    z-index: 100;
+}
+
+.eventos {
+    grid-row: 2;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.eventos h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-eventos {
+    grid-row: 3;
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-eventos p {
+    color: black;
+    text-align: left;
+}
+
+.texto-eventos p1 {
+    color: black;
+    text-align: left;
+}
+
+.btneventos {
+    border: none;
+    grid-row: 4;
+    width: 360px;
+    height: 53px;
+    font-size: 15px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    margin: 0px auto 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    cursor: pointer;
+}
+
+.proximo {
+    grid-row: 5;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.proximo h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-proximo {
+    grid-row: 6;
+    margin: 40px 22px 25px 22px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-proximo p {
+    color: black;
+    text-align: left;
+}
+
+.btnproximo {
+    border: none;
+    grid-row: 7;
+    width: 360px;
+    height: 53px;
+    font-size: 15px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px auto 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    cursor: pointer;
+}
+
+.linea {
+    grid-row: 5;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
