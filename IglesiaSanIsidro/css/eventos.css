@@ -8,8 +8,9 @@
 
 main {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     background-color: #b8e5f5;
+    min-height: 100vh;
+    text-align: center;
     ;
 }
 
@@ -142,4 +143,123 @@ main {
     margin: 0px;
     height: 50px;
     background-color: #1fbfb8;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.contenedor-imagen {
+    position: absolute;
+    top: -1%;
+    right: 0%;
+    width: 20%;
+}
+
+.contenedor-imagen2 {
+    position: absolute;
+    top: -1%;
+    margin-left: 40px;
+    left: 0%;
+    width: 20%;
+}
+
+.img2 {
+    width: 85%;
+    animation: ilustrationAnimete2 ease 1s infinite alternate;
+}
+
+@keyframes ilustrationAnimete2 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.04);
+    }
+}
+
+.img {
+    width: 85%;
+    animation: ilustrationAnimete ease 1s infinite alternate;
+}
+
+@keyframes ilustrationAnimete {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.04);
+    }
+}
+
+.Contenedor-textos {
+    flex-basis: 50%;
+    padding-left: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 45px;
+    font-size: 50px;
+    top: 4%;
+}
+
+.subtitulo {
+    font-size: 30px;
+    margin: 2px 0px;
+}
+
+.final {
+    grid-row: 5;
+    width: 100vw;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+    margin-top: 140px;
+}
+
+.final h2 {
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+    flex-basis: 50%;
+    margin-top: 0px;
+}
+
+.texto-final p {
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.btnfinal {
+    border: none;
+    grid-row: 7;
+    width: 360px;
+    height: 53px;
+    font-size: 15px;
+    background-color: #1fbfb8;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px auto 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    cursor: pointer;
+}
+
+.contenedor2 {
+    position: relative;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: -710px;
+    position: relative;
+    left: 0%;
+    top: -1%;
 }
