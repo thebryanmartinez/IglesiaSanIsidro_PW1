@@ -9,6 +9,7 @@
 main {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    background-color: #b8e5f5;
 }
 
 .heropanel {
@@ -31,4 +32,204 @@ main {
     font-size: 24px;
     color: white;
     z-index: 100;
+}
+
+.PadreTony {
+    grid-row: 5;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.imgPadreTony img {
+    width: 13%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.PadreTony h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-PadreTony {
+    grid-row: 6;
+    margin: 40px 22px 25px 22px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-PadreTony p {
+    color: black;
+    text-align: left;
+}
+
+.ApostolRoberto {
+    grid-row: 2;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.imgApostolRoberto img {
+    width: 13%;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+
+.ApostolRoberto h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-ApostolRoberto {
+    grid-row: 3;
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-ApostolRoberto p {
+    color: black;
+    text-align: left;
+}
+
+.texto-ApostolRoberto p1 {
+    color: black;
+    text-align: left;
+}
+
+.PadreCarlos {
+    grid-row: 2;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.imgPadreCarlos img {
+    width: 13%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.PadreCarlos h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-PadreCarlos {
+    grid-row: 3;
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-PadreCarlos p {
+    color: black;
+    text-align: left;
+}
+
+.texto-PadreCarlos p1 {
+    color: black;
+    text-align: left;
+}
+
+.PastoraGiselle {
+    grid-row: 2;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.imgPastoraGiselle img {
+    width: 13%;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+
+.PastoraGiselle h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-PastoraGiselle {
+    grid-row: 3;
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-PastoraGiselle p {
+    color: black;
+    text-align: left;
+}
+
+.texto-PastoraGiselle p1 {
+    color: black;
+    text-align: left;
+}
+
+.ApostolSantos {
+    grid-row: 2;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
+}
+
+.imgApostolSantos img {
+    width: 13%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.ApostolSantos h2 {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.texto-ApostolSantos {
+    grid-row: 3;
+    margin: 40px 22px 25px;
+    color: red;
+    font-size: 18px;
+}
+
+.texto-ApostolSantos p {
+    color: black;
+    text-align: left;
+}
+
+.texto-ApostolSantos p1 {
+    color: black;
+    text-align: left;
+}
+
+.linea {
+    grid-row: 5;
+    width: 100vw;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    height: 50px;
+    background-color: #1fbfb8;
 }
