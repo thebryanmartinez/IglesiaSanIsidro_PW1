@@ -76,9 +76,84 @@
                 completamente privadas.
             </p>
             </div>          
-            <button class="btnpeticion" onclick="location.href='quienessomos.html'">
+            <button class="btnpeticion" id="btnpeticion">
                 <h3>Sube tu petición</h3>       
             </button>
+
+            <!--Modal de subir peticion-->
+            <div class="bg-modal" id="bg-modal">
+                <div class="modal-content">
+                    <h3 class="titulo">Enviar peticion</h3>
+                    <form action="" method="POST" class="formulario-peticion">
+                        <fieldset>
+                            <div>                                
+                                <label for="txtNombre">Primer nombre:</label><br> 
+                                <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu primer nombre" />
+                                <br/>
+                            </div>                            
+                            <div>                
+                                <label for="txtEmail">Correo electronico:</label> <br>
+                                <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorre@electronico.com" />
+                                <br/>
+                            </div>   
+                            <div class="radiobuttons">
+                                <div>        
+                                <br>                        
+                                <label>Edad:&nbsp;</label>
+                                </div>
+                                <div class="opciones">                                                        
+                                <input type="radio" id="opcMenor" value="MENOR" checked name="opcEdad" />
+                                <label for="opcMenor">Menor de 20</label>
+                                <br>                                
+                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" />
+                                <label for="opcEntre">Entre 20 y 50</label>
+                                <br>                                
+                                <input type="radio" id="opcMayor" value="Mayor" name="opcEdad" />                                
+                                <label for="opcMayor">Mayor de 50</label>
+                                </div>
+                            </div>             
+                            <div class="radiobuttons">
+                                <div>   
+                                <br>   
+                                <br>                                                                                        
+                                <label>Genero:&nbsp;</label>
+                                </div>
+                                <div class="opciones">                                                        
+                                <input type="radio" id="opcMenor" value="MENOR" checked name="opcEdad" />
+                                <label for="opcMenor">Masculino</label>
+                                <br>                                
+                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" />
+                                <label for="opcEntre">Femenino</label>
+                                <br>                            
+                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" /> 
+                                <label for="opcEntre">No binario</label>
+                                <br>                                
+                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" /> 
+                                <label for="opcEntre">Fluido</label>
+                                <br>
+                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" />
+                                <label for="opcEntre">Otro</label>                                                                                                                                                              
+                                </div>
+                            </div>  
+                            <div>                
+                                <label for="txtPeticion">Peticion:</label> <br>
+                                <textarea name="txtPeticion" id="txtPeticion" cols="10" rows="4"></textarea>
+                                <br>
+                            </div>
+                        </fieldset>
+                        <div class="botonespeticion">
+                            <button class="btnenviarpeticion">
+                                <h3>Enviar peticion</h3>       
+                            </button>
+                            <button class="btncancelarpeticion">
+                                <h3>Cancelar</h3>       
+                            </button>
+                         </div>                        
+                    </form>
+                </div>
+            </div>
+
+
             <div class="testimonios">
                 <h2>Testimonios</h2>
             </div>
@@ -101,7 +176,7 @@
                     su publicacion en la parte inferior.
                 </p>
             </div>
-            <button class="btntestimonio" onclick="location.href='quienessomos.html'">
+            <button class="btntestimonio">
                 <h3>Sube tu testimonio</h3>       
             </button>
             <div class="publicaciones">
@@ -165,8 +240,8 @@
                 </div>
             </div>
         </div>
-
     </footer>
+    <script src="js/peticiones.js"></script>
 </body>
 
 </html>
