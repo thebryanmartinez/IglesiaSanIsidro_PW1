@@ -10,6 +10,8 @@ main {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-color: #b8e5f5;
+    overflow-x: hidden;
+    min-height: 100vh;
 }
 
 .heropanel {

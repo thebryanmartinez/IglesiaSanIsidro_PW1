@@ -11,6 +11,7 @@ main {
     background-color: #ffffff;
     min-height: 100vh;
     text-align: center;
+    overflow-x: hidden;
     ;
 }
 
@@ -25,8 +26,9 @@ main {
 }
 
 .heropanel {
+    display: flex;
     margin: 0px;
-    grid-column: 0/13;
+    align-items: center;
 }
 
 .heropanel img {
@@ -37,7 +39,7 @@ main {
 }
 
 .heropanel h1 {
-    margin: 135px 0px;
+    margin: 100px 0px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -220,7 +222,7 @@ main {
 .texto-imagen img {
     margin: 0px;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .texto-imagen p {
