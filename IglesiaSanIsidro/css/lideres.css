@@ -8,10 +8,10 @@
 
 main {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
-    overflow-x: hidden;
+    background: #72e0db;
     min-height: 100vh;
-    text-align: center;
+    overflow-x: hidden;
+    ;
 }
 
 .heropanel {
@@ -37,183 +37,58 @@ main {
     z-index: 100;
 }
 
-.PadreTony {
-    grid-row: 5;
-    width: 100vw;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    height: 50px;
-    background-color: #1fbfb8;
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: rgb(250, 250, 250);
+    margin-top: 100px;
+    border-top: 10px solid #4182d6;
 }
 
-.PadreTony h2 {
-    margin-top: 8px;
-    vertical-align: middle;
+.contenedor img {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
-.texto-PadreTony {
-    grid-row: 6;
-    margin: 40px 22px 25px 22px;
-    color: red;
-    font-size: 18px;
+.contenedor p {
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: 18px;
 }
 
-.texto-PadreTony p {
-    color: black;
-    text-align: left;
+.contenedor2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: rgb(250, 250, 250);
+    margin-top: 100px;
+    border-top: 10px solid #4cb87c;
 }
 
-.ApostolRoberto {
-    grid-row: 2;
-    width: 100vw;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    height: 50px;
-    background-color: #1fbfb8;
+.contenedor2 img {
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.ApostolRoberto h2 {
-    margin-top: 8px;
-    vertical-align: middle;
+.contenedor2 p {
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
-.texto-ApostolRoberto {
-    grid-row: 3;
-    margin: 40px 22px 25px;
-    color: red;
-    font-size: 18px;
+.tituloPadre {
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
-.texto-ApostolRoberto p {
-    color: black;
-    text-align: left;
-}
-
-.texto-ApostolRoberto p1 {
-    color: black;
-    text-align: left;
-}
-
-.PadreCarlos {
-    grid-row: 2;
-    width: 100vw;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    height: 50px;
-    background-color: #1fbfb8;
-}
-
-.PadreCarlos h2 {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-.texto-PadreCarlos {
-    grid-row: 3;
-    margin: 40px 22px 25px;
-    color: red;
-    font-size: 18px;
-}
-
-.texto-PadreCarlos p {
-    color: black;
-    text-align: left;
-}
-
-.texto-PadreCarlos p1 {
-    color: black;
-    text-align: left;
-}
-
-.PastoraGiselle {
-    grid-row: 2;
-    width: 100vw;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    height: 50px;
-    background-color: #1fbfb8;
-}
-
-.PastoraGiselle h2 {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-.texto-PastoraGiselle {
-    grid-row: 3;
-    margin: 40px 22px 25px;
-    color: red;
-    font-size: 18px;
-}
-
-.texto-PastoraGiselle p {
-    color: black;
-    text-align: left;
-}
-
-.texto-PastoraGiselle p1 {
-    color: black;
-    text-align: left;
-}
-
-.ApostolSantos {
-    grid-row: 2;
-    width: 100vw;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    height: 50px;
-    background-color: #1fbfb8;
-}
-
-.ApostolSantos h2 {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-.texto-ApostolSantos {
-    grid-row: 3;
-    margin: 40px 22px 25px;
-    color: red;
-    font-size: 18px;
-}
-
-.texto-ApostolSantos p {
-    color: black;
-    text-align: left;
-}
-
-.texto-ApostolSantos p1 {
-    color: black;
-    text-align: left;
-}
-
-.linea {
-    grid-row: 5;
-    width: 100vw;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    height: 50px;
-    background-color: #1fbfb8;
-}
-
-.Padre-Imagen {
-    margin-top: 11px;
-    top: -1%;
-    left: 0%;
-    width: 5%;
-    height: 5%;
-}
-
-.Padre-ImagenD {
-    margin-top: 11px;
-    top: -1%;
-    right: 0%;
-    width: 5%;
-    height: 5%;
+.subtituloPadre {
+    font-size: 30px;
+    font-weight: 400;
 }
