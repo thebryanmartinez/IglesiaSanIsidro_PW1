@@ -79,7 +79,7 @@
     animation-duration: 1.5s;
 }
 
-main {
+main div {
     border-style: ridge;
     margin: 16px;
     margin-right: -2rem;
@@ -97,6 +97,15 @@ main p {
     padding: 0px 1rem;
     line-height: 2;
     text-shadow: 1px 1px 1px #333;
+}
+
+main picture {
+    max-width: 1000px;
+    position: sticky;
+    align-items: center;
+    margin: auto auto;
+    margin-left: 15%;
+    padding: 16px 16px;
 }
 
 @-webkit-keyframes fade {
@@ -130,6 +139,14 @@ main p {
         align-items: center;
         margin: auto auto;
     }
+    main picture {
+        max-width: 1000px;
+        position: sticky;
+        align-items: center;
+        margin: auto auto;
+        margin-left: 4%;
+        padding: 16px 16px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -145,5 +162,13 @@ main p {
         position: relative;
         align-items: center;
         margin: auto auto;
+    }
+    main picture {
+        max-width: 1000px;
+        position: sticky;
+        align-items: center;
+        margin: auto auto;
+        margin-left: 15%;
+        padding: 16px 16px;
     }
 }
