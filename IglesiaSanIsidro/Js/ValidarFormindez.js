@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     btnform.addEventListener("click", function(e) {
 
-        alert("Sus datos se han resivido, este atento al correo o a una llamada");
+        alert("Sus datos se han recibido, este atento al correo o a una llamada");
 
 
     });

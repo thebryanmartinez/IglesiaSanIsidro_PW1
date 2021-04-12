@@ -17,13 +17,12 @@ main{
 }
 
 .heropanel img{    
-    width: 100vw;
+    width: 100vw;    
     margin: 0px;
     filter: brightness(50%);    
 }
 
-.heropanel h1{
-    margin: 100px 0px;
+.heropanel h1{    
     position: absolute;
     text-align: center;
     width:100%;
@@ -34,7 +33,6 @@ main{
 
 .texto-donaciones-superior{    
     margin: 40px 22px 25px;
-    color: red;
     font-size: 18px;
 }
 
@@ -43,9 +41,13 @@ main{
     text-align: left;
 }
 
+.texto-donaciones-superior #derecha{
+    display: none;
+    margin: 0px;
+}
+
 .texto-donaciones-inferior{    
-    margin: 40px 22px 25px;
-    color: red;
+    margin: 40px 22px 0px;
     font-size: 18px;
 }
 
@@ -54,7 +56,12 @@ main{
     text-align: left;
 }
 
-.btnquienessomos{
+.texto-donaciones-inferior #izquierda{
+    display: none;
+    margin: 0px;
+}
+
+.boton{
     border: none;
     width: 232px;
     height: 38px;
@@ -62,38 +69,40 @@ main{
     background-color: #1fbfb8;
     border-radius: 20px;
     color: white;
-    margin: 0px auto 40px;
+    margin: 25px auto 40px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
     text-align: center;
     cursor: pointer;
 }
 
-.donacionesenlinea{     
+.subtitulo{     
+    display: flex;
     width: 100vw;
     font-size: 18px;
     color: white;   
     margin: 0px;    
     height: 50px;
     background-color: #1fbfb8;
+    text-align: center;
+    justify-content: center;
 }
 
-.donacionesenlinea h2{    
-    padding: 5px;
+.subtitulo h2{        
+    margin: auto 0px;
     vertical-align: middle;
 }
 
-.texto-donaciones{    
-    margin: 40px 22px 0px;
-    color: red;
+.texto{    
+    margin: 40px 22px 0px;    
     font-size: 18px;
 }
 
-.texto-donaciones p{
+.texto p{
     color: black;
     text-align: left;
 }
 
-.texto-donaciones strong{
+strong{
     color: red;
 }
 
@@ -114,7 +123,6 @@ main{
     border: none;
     font-size: 18px;
     font-weight: bold;
-    ;
 }
 
 .entradadedatos input{
@@ -127,35 +135,6 @@ main{
 
 .entradadedatos #txtMensaje{
     padding: 0px 0px 80px;
-}
-
-.btndonar{
-    border: none;    
-    width: 232px;
-    height: 38px;
-    font-size: 18px;
-    background-color: #1fbfb8;
-    border-radius: 20px;
-    color: white;
-    margin: 25px auto 40px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
-    text-align: center;
-    cursor: pointer;
-}
-
-.porquedonar{     
-    width: 100vw;
-    font-size: 18px;
-    color: white;   
-    margin: 0px;    
-    height: 50px;
-    background-color: #1fbfb8;    
-}
-
-.porquedonar h2{    
-    padding: 5px;
-    vertical-align: middle;
-    
 }
 
 .texto-porque-donar{
@@ -185,4 +164,161 @@ main{
     font-size: 18px;
     width: 100%;
     border: 2px solid black;
+}
+
+@media(min-width: 600px){
+    .heropanel h1{
+        font-size: 36px;
+    }        
+}
+
+@media(min-width:750px){
+    .texto-donaciones-superior{ 
+        display: flex;
+        margin: 40px 50px 25px;
+        background: rgba(31, 191, 184, 0.2);;
+        border: 1px solid black;
+        border-radius: 20px;
+    }    
+
+    .texto-donaciones-superior p{
+        margin: 25px 20px 0px 20px;                
+    }
+
+    .texto-donaciones-superior p:nth-child(3){
+        margin: 0px 20px 25px 20px;
+    }
+    
+    .texto-donaciones-inferior{         
+        margin: 40px 50px 25px;
+        background: rgba(31, 191, 184, 0.2);;
+        border: 1px solid black;
+        border-radius: 20px;
+    }    
+
+    .texto-donaciones-inferior p{
+        margin: 25px 20px 0px 20px;                
+    }
+
+    .texto-donaciones-inferior p:nth-child(3){
+        margin: 0px 20px 25px 20px;
+    }    
+}
+
+
+@media(min-width: 850px){
+    .texto-porque-donar{        
+        display: grid;        
+        margin: 40px 50px 0px;
+    }
+    
+    .texto-porque-donar img{            
+        inline-size: 20em;
+        float: left;                                                                                                                    
+    }
+
+    .texto-porque-donar .imagen1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .texto-porque-donar .imagen2{
+        margin: 10px 80px 0px 100px;
+        grid-column: 1;
+        grid-row: 2;    
+    }
+    
+    .texto-porque-donar .texto{
+        margin: auto 0px;        
+        grid-row-start: 1;
+        grid-row-end: 4; 
+        grid-column: 2;       
+    }
+}
+
+@media(min-width: 1024px){    
+    .heropanel h1{                                        
+        font-size: 48px;        
+    }
+
+    .texto-donaciones-superior{ 
+        display: flex;
+        margin: 40px 88px 25px;
+        background: rgba(31, 191, 184, 0.2);;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    
+    .texto-donaciones-superior #izquierda{
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0px 25px 40px;
+        float: left;
+        justify-content: center;        
+        align-items: left;
+    }    
+
+    .texto-donaciones-superior p:nth-child(3){        
+        margin: 25px 0px 0px 20px;      
+    }
+
+    .texto-donaciones-superior #derecha{
+        display: block;      
+        margin: 0px 20px 0px 40px;
+        align-self: center;        
+    } 
+    
+    .texto-donaciones-inferior{ 
+        display: flex;
+        margin: 40px 88px 25px;
+        background: rgba(31, 191, 184, 0.2);;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    
+    .texto-donaciones-inferior #izquierda{
+        display: block;      
+        margin: 0px 40px 0px 20px;
+        align-self: center;  
+    }    
+
+    .texto-donaciones-inferior p:nth-child(3){        
+        margin: 25px 0px 0px 20px;      
+    }
+
+    .texto-donaciones-inferior #derecha{                
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0px 25px 40px;
+        float: left;
+        justify-content: center;        
+        align-items: left;
+    }
+    
+    .texto-porque-donar{        
+        display: grid;        
+        margin: 40px 100px 0px;
+    }
+    
+    .texto-porque-donar img{            
+        inline-size: 20em;
+        float: left;                                                                                                                    
+    }
+
+    .texto-porque-donar .imagen1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .texto-porque-donar .imagen2{
+        margin: 10px 80px 0px 100px;
+        grid-column: 1;
+        grid-row: 2;    
+    }
+    
+    .texto-porque-donar .texto{        
+        grid-row-start: 1;
+        grid-row-end: 3; 
+        grid-column: 2;       
+    }
 }

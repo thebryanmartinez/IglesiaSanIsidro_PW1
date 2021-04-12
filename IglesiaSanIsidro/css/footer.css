@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+footer strong{
+    color: white;
+}
+
 footer {
     background: #1fbfb8;
     position: relative;
@@ -16,7 +20,7 @@ footer p {
     color: white;
 }
 
-img {
+footer img {
     margin: 0px 10px;
 }
 
@@ -30,7 +34,7 @@ main {
     min-height: calc(100vh - 159px);
 }
 
-div {
+footer div {
     display: block;
 }
 
