@@ -12,7 +12,7 @@ body{
     font-weight: 400; 
     text-align: center; 
     position: sticky;
-    margin-left: 270px;
+    margin: 0px auto;
    
 }
 #contenedor2{
@@ -25,18 +25,22 @@ body{
     font-weight: 400; 
     text-align: center; 
     position: sticky;
-    margin-left: 270px;
+    margin: 0px auto;
     
 }
 
 #contenedor p {
+   margin: 0px 20px;
    padding-top: 60px;
    color: #000000;
+   text-align: left;
 
 }
 #contenedor2 p {
+    margin: 0px 20px;
     padding-top: 60px;
     color: #000000;
+    text-align: left;
     
  }
 #uno {
