@@ -13,7 +13,7 @@ body{
     font-weight: 400; 
     text-align: center; 
     position: sticky;
-    margin-left: 270px;
+    margin: 0px auto;
    
 }
 #contenedor2{
@@ -26,18 +26,22 @@ body{
     font-weight: 400; 
     text-align: center; 
     position: sticky;
-    margin-left: 270px;
+    margin: 0px auto;
     
 }
 
 #contenedor p {
    padding-top: 60px;
    color: #000000;
+   text-align: left;
+   margin: 0px 20px;
 
 }
 #contenedor2 p {
     padding-top: 60px;
     color: #000000;
+    text-align: left;
+    margin: 0px 20px;
     
  }
 #uno {
@@ -60,5 +64,32 @@ body{
     font-weight: bold;
     font-size: 26px;
     text-transform: uppercase;
+}
+
+
+
+
+@media (min-width: 640px) {
+    main {
+        max-width: 800px;
+        height: fit-content;
+        margin:  auto;
+    }
+   #contenedor{
+       align-items: center;
+
+   }
+    
+    
+
+}
+
+@media (min-width:1200px) {
+    main {
+        max-width: 2000px;
+        height: fit-content;
+        margin: 1rem auto;
+    }
+    
 }
     

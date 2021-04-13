@@ -88,3 +88,28 @@ body{
   font-size: 15px;
   text-transform: uppercase;
 }
+
+
+@media (min-width: 640px) {
+  main {
+      max-width: 800px;
+      height: fit-content;
+      margin:  auto;
+  }
+ #contenedor{
+     align-items: center;
+
+ }
+  
+  
+
+}
+
+@media (min-width:1200px) {
+  main {
+      max-width: 2000px;
+      height: fit-content;
+      margin: 1rem auto;
+  }
+  
+}
