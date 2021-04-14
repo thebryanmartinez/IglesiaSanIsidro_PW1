@@ -1787,3 +1787,264 @@ div .form-content {
         bottom: 240px;
     }
 }
+
+@media (max-width: 448px) {
+    .BotonA {
+        width: 150px;
+        bottom: 130px;
+    }
+    .BotonA2 {
+        width: 150px;
+        bottom: 180px;
+    }
+    .BotonA3 {
+        width: 150px;
+        bottom: 150px;
+    }
+    .BotonB {
+        width: 150px;
+        bottom: 130px;
+    }
+    .slideFrame p {
+        width: 420px;
+        font-size: 12px;
+        left: 5px;
+        bottom: 180px;
+    }
+    .slideFrame .p2 {
+        width: 420px;
+        font-size: 12px;
+        left: 5px;
+        bottom: 200px;
+    }
+    .slideFrame .p3 {
+        width: 420px;
+        font-size: 12px;
+        left: 5px;
+        bottom: 220px;
+    }
+    .depth-1 {
+        width: 350px;
+        height: 750px;
+    }
+    .depth-1 h2 {
+        font-size: 35px;
+    }
+    .formMision .form-content {
+        width: 400px;
+        height: 560px;
+    }
+    .conocenosP h2 {
+        width: 300px;
+    }
+    .conocenosP {
+        top: 40px;
+        right: 140px;
+    }
+    .iglesia {
+        top: 220px;
+        left: 100px;
+    }
+    .formMision .form-content .botonINgresar {
+        top: 410px;
+        right: 420px;
+    }
+    .formMision .form-content .botonINgresar button {
+        width: 250px;
+    }
+}
+
+@media (max-width: 430px) {
+    .BotonB {
+        width: 150px;
+        bottom: 130px;
+        left: 250px;
+    }
+    .slideFrame p {
+        width: 380px;
+        font-size: 12px;
+        left: 5px;
+        bottom: 180px;
+    }
+    .slideFrame .p2 {
+        width: 380px;
+        font-size: 12px;
+        left: 5px;
+        bottom: 200px;
+    }
+    .slideFrame .p3 {
+        width: 380px;
+        font-size: 12px;
+        left: 5px;
+        bottom: 220px;
+    }
+}
+
+@media (max-width: 412px) {
+    .BotonA {
+        bottom: 110px;
+    }
+    .BotonA2 {
+        bottom: 160px;
+    }
+    .BotonA3 {
+        bottom: 130px;
+    }
+    .BotonB {
+        bottom: 110px;
+    }
+    .slideFrame p {
+        bottom: 160px;
+    }
+    .slideFrame .p2 {
+        bottom: 180px;
+    }
+    .slideFrame .p3 {
+        bottom: 200px;
+    }
+    .slideLens {
+        height: 65vh;
+    }
+    .indexer {
+        bottom: 8rem;
+    }
+    .leftBtn,
+    .rightBtn {
+        top: 400px;
+        font-size: 3.5em;
+    }
+    .slideFrame h2 {
+        width: 370px;
+    }
+    .depth-1 {
+        width: 300px;
+        height: 900px;
+    }
+    .nombre {
+        right: 520px;
+    }
+    .email {
+        right: 510px;
+    }
+    .telefono {
+        left: -560px;
+    }
+    .botonform {
+        right: 600px;
+    }
+    .formMision .form-content {
+        width: 340px;
+    }
+    .conocenosP {
+        right: 165px;
+    }
+    .iglesia {
+        left: 80px;
+    }
+    .formMision .form-content .botonINgresar {
+        right: 440px;
+    }
+}
+
+@media (max-width: 406px) {
+    .BotonA {
+        bottom: 100px;
+    }
+    .BotonA2 {
+        bottom: 150px;
+    }
+    .BotonA3 {
+        bottom: 120px;
+    }
+    .BotonB {
+        bottom: 100px;
+    }
+    .slideFrame p {
+        bottom: 150px;
+    }
+    .slideFrame .p2 {
+        bottom: 170px;
+    }
+    .slideFrame .p3 {
+        bottom: 190px;
+    }
+    .slideLens {
+        height: 60vh;
+    }
+    .indexer {
+        bottom: 9rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .BotonA {
+        bottom: 90px;
+    }
+    .BotonA2 {
+        left: 100px;
+        bottom: 140px;
+    }
+    .BotonA3 {
+        left: 100px;
+        bottom: 90px;
+    }
+    .BotonB {
+        left: 180px;
+        bottom: 90px;
+    }
+    .slideFrame p {
+        width: 320px;
+        bottom: 140px;
+    }
+    .slideFrame .p2 {
+        width: 320px;
+        bottom: 140px;
+    }
+    .slideFrame .p3 {
+        width: 320px;
+        bottom: 180px;
+    }
+    .slideLens {
+        height: 57vh;
+    }
+    .indexer {
+        bottom: 10.5rem;
+    }
+    .slideFrame h2 {
+        width: 400px;
+        font-size: 1.5rem;
+    }
+    .leftBtn,
+    .rightBtn {
+        top: 370px;
+        font-size: 3.5em;
+    }
+    .depth-1 {
+        width: 280px;
+        height: 950px;
+    }
+    .nombre {
+        right: 530px;
+    }
+    .email {
+        right: 520px;
+    }
+    .telefono {
+        left: -570px;
+    }
+    .botonform {
+        right: 620px;
+    }
+    .formMision .form-content {
+        width: 300px;
+    }
+    .conocenosP {
+        right: 190px;
+    }
+    .iglesia {
+        left: 60px;
+    }
+    .formMision .form-content .botonINgresar {
+        right: 460px;
+    }
+}

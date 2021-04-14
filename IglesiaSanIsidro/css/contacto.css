@@ -1,0 +1,502 @@
+html body {
+    
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+}
+
+.Contacto form div input
+{
+    display:inline;
+}
+
+.Contacto #Titulo h2
+{
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    /*position:relative;*/
+    /*margin-left: 45rem;*/
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Contacto #Formulario
+{
+    background-image: url(../img/contacto/Contacto480x480.jpg);
+    height: 480px;
+    padding-left: 124.5px;
+    padding-right: 124.5px;
+    padding-bottom: 1285px;
+    background-size: cover;
+}
+
+#Contenedor
+{
+    position: relative;
+    bottom: -70px;
+    width: 1100px;
+    height: 1150px;
+    padding: 100px;
+    padding-top: 0px;
+    background-color: #fff;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.6);
+
+}
+
+
+#form label
+{
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+#form input
+{
+    width: 700px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+
+    border-width: 1.7px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#form div
+{
+    margin-top: 50px;
+}
+
+
+#form #genero
+{
+    position: relative;
+    bottom: -50px;
+    margin-left: 50px;
+}
+
+
+form p
+{
+    position: relative;
+    bottom: -35px;
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+#radio_btns
+{
+    position: relative;
+    margin-left: 300px;
+    bottom: 100px;
+}
+
+
+#mensaje_enviar
+{
+    position: relative;
+    margin: 0px;
+    bottom: 80px;
+}
+
+textarea
+{
+    margin-top:5px;
+    resize: none;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-width: 1.7px;
+    border-style: solid;
+    border-color: black;
+}
+
+button
+{
+    position:relative;
+    margin-left: 160px;
+    bottom: 30px;
+    font-size: 30px;
+    padding: 1rem 10rem;
+    border: 2px #1FBFB8 solid;
+    background-color: #1FBFB8;
+    font-weight: 700;
+    color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+
+}
+
+
+#error_nombre
+{
+    position: absolute;
+    bottom: 1000px;
+    font-weight: 550;
+    color: red;
+    display: none;
+}
+
+#error_correo
+{
+    position: absolute;
+    top: 205px;
+    font-weight: 550;
+    color: red;
+    display: none;
+}
+
+#error_telefono
+{
+    position: absolute;
+    top: 331px;
+    font-weight: 550;
+    color: red;
+    display: none;
+}
+
+#error_genero
+{
+    position: absolute;
+    top: 460px;
+    left: 150px;
+    font-weight: 550;
+    color: red;
+    display: none;
+}
+
+#error_mensaje
+{
+    position: absolute;
+    /*left: 270px;
+    bottom: 346px;*/
+    bottom: -20px;
+    font-weight: 550;
+    color: red;
+    display: none;
+}
+
+
+@media(max-width: 990px)
+{
+
+    #form label
+    {
+        position: relative;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    #Contenedor
+    {
+        position: relative;
+        bottom: -70px;
+        width: 900px;
+        height: 1150px;
+        padding: 100px;
+        padding-top: 0px;
+
+    }
+
+
+    textarea
+    {
+        width: 100%;
+    }
+
+
+    button
+    {
+
+        margin-left: 10%;
+
+    }
+    
+    #error_nombre
+    {
+
+        bottom: 1010px;
+
+    }
+
+    #error_correo
+    {
+
+        top: 190px;
+  
+    }
+
+    #error_telefono
+    {
+
+        top: 310px;
+
+    }
+
+    #error_genero
+    {
+        top: 440px;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width: 775px)
+{
+
+
+    .Contacto #Titulo h2
+    {
+        font-size: 200%;
+    }
+
+
+    #form label
+    {
+        position: relative;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    #Contenedor
+    {
+        position: relative;
+        bottom: -70px;
+        width: 700px;
+        height: 1150px;
+        padding: 100px;
+        padding-top: 0px;
+
+    }
+
+
+    textarea
+    {
+        width: 100%;
+    }
+
+
+    button
+    {
+
+        margin-left: 1%;
+        font-size: 120%;
+
+    }
+    
+    #error_nombre
+    {
+
+        bottom: 1010px;
+
+    }
+
+    #error_correo
+    {
+
+        top: 190px;
+  
+    }
+
+    #error_telefono
+    {
+
+        top: 310px;
+
+    }
+
+    #error_genero
+    {
+        top: 440px;
+    }
+
+    #form input
+    {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-top: 5px;
+
+        border-width: 1.7px;
+        border-style: solid;
+        border-color: black;
+    }
+    
+    form p
+    {
+        position: relative;
+        bottom: -35px;
+        color: black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: -250%;
+    }
+
+    #radio_btns
+    {
+        position: relative;
+        margin-left: 90%;
+        bottom: 100px;
+    }
+
+
+}
+
+
+@media(max-width: 530px)
+{
+
+
+    .Contacto #Titulo h2
+    {
+        font-size: 200%;
+    }
+
+
+    #form label
+    {
+        position: relative;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    #Contenedor
+    {
+        position: relative;
+        bottom: -70px;
+        width: 400px;
+        height: 1150px;
+        padding: 5%;
+        padding-top: 0px;
+
+    }
+
+
+    textarea
+    {
+        width: 100%;
+    }
+
+
+    button
+    {
+
+        margin-left: 3%;
+        margin-top: 5%;
+        font-size: 140%;
+        padding: 1rem 5rem;
+
+    }
+    
+    #error_nombre
+    {
+
+        bottom: 1010px;
+
+    }
+
+    #error_correo
+    {
+
+        top: 190px;
+  
+    }
+
+    #error_telefono
+    {
+
+        top: 315px;
+
+    }
+
+    #error_genero
+    {
+        top: 447px;
+        margin-left: -20%;
+    }
+
+    #form input
+    {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-top: 5px;
+
+        border-width: 1.7px;
+        border-style: solid;
+        border-color: black;
+    }
+    
+    form p
+    {
+        position: relative;
+        bottom: -35px;
+        color: black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100%;
+        margin-left: -250%;
+    }
+
+    #radio_btns
+    {
+        position: relative;
+        margin-left: 90%;
+        bottom: 80px;
+    }
+
+    #genero
+    {
+        top:65px;
+    }
+
+
+}
+
+@media(max-width: 510px)
+{
+
+
+    .Contacto #Titulo h2
+    {
+        font-size: 190%;
+    }
+
+}

@@ -79,7 +79,7 @@
     animation-duration: 1.5s;
 }
 
-main {
+main div {
     border-style: ridge;
     margin: 16px;
     margin-right: -2rem;
@@ -92,11 +92,20 @@ main {
 main p {
     color: black;
     font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 2.1em;
+    font-size: 1.5em;
     /*font-weight: bold;*/
     padding: 0px 1rem;
-    line-height: 2;
-    text-shadow: 1px 1px 1px #333;
+    line-height: 2.5;
+}
+
+main picture {
+    max-width: 1000px;
+    position: sticky;
+    align-items: center;
+    margin: auto auto;
+    margin-left: 15%;
+    padding: 16px 16px;
+    padding-top: 100%;
 }
 
 @-webkit-keyframes fade {
@@ -123,12 +132,23 @@ main p {
         height: fit-content;
         margin: 1rem auto;
     }
+    main div {
+        margin: 2rem;
+    }
     .slideshow-container {
         max-width: 640px;
         padding-top: 2rem;
         position: relative;
         align-items: center;
         margin: auto auto;
+    }
+    main picture {
+        max-width: 1000px;
+        position: sticky;
+        align-items: center;
+        margin: auto auto;
+        margin-left: 4%;
+        padding: 16px 16px;
     }
 }
 
@@ -138,6 +158,10 @@ main p {
         height: fit-content;
         margin: 1rem auto;
     }
+    main div {
+        margin: 2rem;
+        padding: 50px;
+    }
     .slideshow-container {
         max-width: 1000px;
         margin: auto;
@@ -145,5 +169,13 @@ main p {
         position: relative;
         align-items: center;
         margin: auto auto;
+    }
+    main picture {
+        max-width: 1000px;
+        position: sticky;
+        align-items: center;
+        margin: auto auto;
+        margin-left: 15%;
+        padding: 16px 16px;
     }
 }

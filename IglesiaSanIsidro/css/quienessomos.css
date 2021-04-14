@@ -1,0 +1,1804 @@
+html body {
+    
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+}
+
+
+.Ubicacion #Titulo h2
+{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*position:relative;*/
+    /*margin-left: 45rem;*/
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.Ubicacion #Titulo #Logo_Derecho
+{
+    float: right;
+    position: relative;
+    bottom: -29px;
+    right: 100px;
+    width: 7%;
+}
+
+
+.Ubicacion #Titulo #Logo_Izquierdo
+{
+    float: left;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+    width: 7%;
+}
+
+
+#Lugar
+{
+    background-color: #02A7A0;
+    height: 480px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 650px;
+}
+
+
+#Mapa
+{
+    float: left;
+    position: relative;
+    right: 150px;
+    bottom: -90px;
+    filter: drop-shadow(5px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+#Foto
+{
+    float:right;
+    position:relative;
+    bottom: 375px;
+    left: 150px;
+
+    /*bottom: -90px;
+    left: 150px;*/
+
+    filter: drop-shadow(5px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+#Especificacion
+{
+    position: absolute;
+    bottom: -210px;
+    left: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.Ubicacion #Titulo2 h2
+{
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 350px;
+    margin-right: 45rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Ubicacion #Titulo2 #Logo_Derecho
+{
+    float: right;
+    position: relative;
+    bottom: -29px;
+    left: 430px;
+    transform: scaleX(-1);
+    width: 7%;
+}
+
+
+.Ubicacion #Titulo2 #Logo_Izquierdo
+{
+    float: left;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+    width: 7%;
+}
+
+
+#Telefonos
+{
+    background-color: #72D3CF;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.CardHolder1
+{
+    background-color:black;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*padding:0.2rem 0.2rem;*/
+    padding: 2px 2px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Card1
+{
+    background-color: rgb(0, 0, 0);
+    padding:1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.Card1 p
+{
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin: 40px;
+    font-size: 25px;
+}
+
+
+
+.Ubicacion #Titulo3 h2
+{
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 350px;
+    margin-right: 45rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.Ubicacion #Titulo3 #Logo_Derecho
+{
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom:-29px;
+    width: 7%;
+}
+
+
+.Ubicacion #Titulo3 #Logo_Izquierdo
+{
+    float: left;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+    width: 7%;
+}
+
+
+
+
+#Correos
+{
+    background-color: #02A7A0;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.CardHolder2
+{
+    background-color:black;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 2px 2px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Card2
+{
+    background-color: rgb(0, 0, 0);
+    padding:1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.Card2 p
+{
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin: 40px;
+    font-size: 25px;
+}
+
+
+
+.Ubicacion #Titulo4 h2
+{
+    text-align: center;
+    position:relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 350px;
+    margin-right: 45rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+}
+
+.Ubicacion #Titulo4 #Logo_Derecho
+{
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom:-28px;
+    transform: scaleX(-1);
+    width: 7%;
+}
+
+
+.Ubicacion #Titulo4 #Logo_Izquierdo
+{
+    float: left;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+    width: 7%;
+}
+
+
+
+
+#Creencias
+{
+    background-color: #72D3CF;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.CardHolder3
+{
+    margin-top: 3rem;
+    background-color:black;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 2px 2px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Card3
+{
+    background-color: rgb(0, 0, 0);
+    padding:1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#Creencias p
+{
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin: 40px;
+    font-size: 30px;
+}
+
+
+
+
+.Ubicacion #Titulo5 h2
+{
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 355px;
+    margin-right: 45rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.Ubicacion #Titulo5 #Logo_Derecho
+{
+    float: right;
+    position: relative;
+    right: 90px;
+    bottom:-28px;
+    width: 7.2%;
+}
+
+
+.Ubicacion #Titulo5 #Logo_Izquierdo
+{
+    float: left;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+    width: 7%;
+}
+
+
+
+#RedesSociales
+{
+    background-color: #02A7A0;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+
+.Card4 img
+{
+    position: relative;
+    right: 100px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Card4_2 img
+{
+    position: relative;
+    float: right;
+    right: 20px;
+    padding: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/*
+
+.CardHolder4_3
+{
+    text-align: center;
+    margin-top: 30rem;
+    background-color:black;
+    position:relative;
+    left: 45px;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding: 2px 2px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Card4_3
+{
+    background-color: rgb(0, 0, 0);
+    padding:1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+*/
+
+
+
+.CardHolder4_3
+{
+    margin-top: 400px;
+    background-color:black;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*padding:0.2rem 0.2rem;*/
+    padding: 2px 2px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.Card4_3
+{
+    background-color: rgb(0, 0, 0);
+    padding:1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+#RedesSociales p
+{
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin: 40px;
+    font-size: 30px;
+}
+
+
+
+#Instagram
+{
+    position: relative;
+    margin-left: 420px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    font-size: 30px;
+    padding: 1rem 10rem;
+    border: 2px white solid;
+    background-color: white;
+    font-weight: 700;
+    color:black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+}
+
+
+
+.Card4_4 img
+{
+    position: relative;
+    right: -10px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.Card4_5 img
+{
+    position: relative;
+    top: 20px;
+    float: right;
+    right: 20px;
+    padding: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.CardHolder4_6
+{
+    margin-top: 420px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*padding:0.2rem 0.2rem;*/
+    padding: 2px 2px;
+    
+}
+
+.Card4_6
+{
+    
+    padding:1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+/*
+#Comentario_Facebook
+{
+    position: relative;
+    top: 200px;
+    margin: 100px;
+}
+
+*/
+
+#Facebook
+{
+    position: relative;
+    top: 50px;
+    margin-bottom: 90px;
+    margin-left: 420px;
+    font-size: 30px;
+    padding: 1rem 10rem;
+    border: 2px white solid;
+    background-color: white;
+    font-weight: 700;
+    color:black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+
+}
+
+
+
+#Formulario_Contacto
+{
+    background-color: white;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+
+#Formulario_Contacto h3
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#Contacto
+{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 320px;
+    font-size: 30px;
+    padding: 1rem 10rem;
+    border: 2px #1FBFB8 solid;
+    background-color: #1FBFB8;
+    font-weight: 700;
+    color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+}
+
+
+
+@media(max-width: 1217px)
+{
+
+    .Card4 img
+    {
+        position: relative;
+        right: 100px;
+        width: 42%;
+        margin-left: 40px;
+        float: left;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .Card4_2 img
+    {
+        position: relative;
+        width: 42%;
+        float: right;
+        right: 20px;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .Card4_4 img
+    {
+        position: relative;
+        margin-left: 30px;
+        width: 42%;
+        right: -10px;
+        float: left;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .Card4_5 img
+    {
+        position: relative;
+        width: 42%;
+        top: 20px;
+        float: right;
+        margin-right: 20px;
+        right: 20px;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+
+    #Instagram
+    {
+        right: 60px;
+    }
+
+
+    #Facebook
+    {
+        right: 60px;
+    }
+
+
+    #Contacto
+    {
+        right: 80px;
+    }
+
+
+}
+
+
+
+
+
+@media(max-width: 1160px)
+{
+
+    .Card4 img
+    {
+        margin-left: 12%;
+    }
+
+
+    #Instagram
+    {
+        right: 90px;
+    }
+
+
+    #Facebook
+    {
+        right: 90px;
+    }
+
+
+    #Contacto
+    {
+        right: 100px;
+    }
+
+
+}
+
+
+
+@media(max-width: 1110px)
+{
+
+
+    #Titulo5
+    {
+        /*color: crimson;*/
+    }
+
+
+}
+
+
+
+
+
+
+
+@media(max-width: 1098px)
+{
+    #Titulo5
+    {
+        position: relative;
+        margin-right: -100px;
+        right: 40px;
+    }
+
+    #Mapa
+    {
+        margin-left: -30px;
+    }
+
+    #Instagram
+    {
+        right: 120px;
+    }
+
+    #Facebook
+    {
+        right: 120px;
+    }
+
+    #Contacto
+    {
+        right: 135px;
+    }
+
+
+    .Ubicacion #Titulo5 #Logo_Derecho
+    {
+        margin-left: 0px;
+        top: 33px;
+        right: 150px;
+    }
+
+
+    .Ubicacion #Titulo5 #Logo_Izquierdo
+    {
+        margin-right: 0px;
+        bottom: 115px;
+        left: 150px;
+    }
+
+
+    .Card4 img
+    {
+        margin-left: -50px;
+        left: 0px;
+    }
+
+
+    .Card4_2 img
+    {
+        margin-right: 20px;
+        bottom: 0px;
+    }
+
+
+    .CardHolder4_3
+    {
+        margin-top: 400px;
+        background-color:black;
+        
+        
+    
+        padding: 2px 2px;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .Card4_3
+    {
+        background-color: rgb(0, 0, 0);
+        padding:1rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+
+
+@media(max-width: 1060px)
+{
+
+
+
+    .Card4 img
+    {
+        position: relative;
+        left: 90px;
+        float: left;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .Card4_2 img
+    {
+        position: relative;
+        float: right;
+        right: 20px;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+
+    .CardHolder4_3
+    {
+        margin-top: 400px;
+        background-color:black;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 2px 2px;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .Card4_3
+    {
+        background-color: rgb(0, 0, 0);
+        padding:1rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+
+
+    #RedesSociales p
+    {
+        color: black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        margin: 40px;
+        font-size: 30px;
+    }
+
+
+
+    #Instagram
+    {
+        position: relative;
+        margin-left: 410px;
+        margin-bottom: 100px;
+        margin-top: 60px;
+        font-size: 30px;
+        padding: 1rem 10rem;
+        border: 2px white solid;
+        background-color: white;
+        font-weight: 700;
+        color:black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 80px;
+    }
+
+
+
+    .Card4_4 img
+    {
+        position: relative;
+        right: -10px;
+        float: left;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .Card4_5 img
+    {
+        position: relative;
+        top: 20px;
+        float: right;
+        right: 20px;
+        padding: 20px;
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .CardHolder4_6
+    {
+        margin-top: 420px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 2px 2px;
+    }
+
+    .Card4_6
+    {
+        padding:1rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+
+
+    #Facebook
+    {
+        position: relative;
+        top: 50px;
+        margin-bottom: 90px;
+        margin-left: 400px;
+        margin-right: 100px;
+        font-size: 30px;
+        padding: 1rem 10rem;
+        border: 2px white solid;
+        background-color: white;
+        font-weight: 700;
+        color:black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 80px;
+    }
+
+
+
+
+
+}
+
+
+
+@media(max-width: 1040px)
+{
+
+
+
+    #Mapa iframe
+    {
+        width: 150%;
+    }
+
+    #Instagram
+    {
+        right: 150px;
+    }
+
+    #Facebook
+    {
+        right: 140px;
+    }
+
+    #Contacto
+    {
+        font-size: 190%;
+        padding: 1rem 8rem;
+    }
+
+}
+
+
+
+@media(max-width: 1002px)
+{
+
+
+    #Especificacion
+    {
+        top: 900px;
+    }
+
+}
+
+
+
+@media(max-width: 998px)
+{
+
+    #Titulo5
+    {
+        margin-left: -100px;
+        left: 10px;
+
+    }
+
+
+
+
+
+    .Ubicacion #Titulo5 #Logo_Derecho
+    {
+        float: right;
+        position: relative;
+        right: 200px;
+        bottom:-28px;
+        width: 7.2%;
+    }
+
+
+    .Ubicacion #Titulo5 #Logo_Izquierdo
+    {
+        float: left;
+        position: relative;
+        bottom: 120px;
+        left: 190px;
+        width: 7%;
+    }
+    
+}
+
+
+
+@media(max-width: 990px)
+{
+
+    #Especificacion
+    {
+        top: 820px;
+    }
+
+
+
+}
+
+
+
+@media(max-width: 940px)
+{
+
+    #Titulo5
+    {
+        color: black;
+    }
+
+    #Titulo
+    {
+        color: black;
+    }
+
+    #Especificacion
+    {
+        top: 820px;
+        left: 30px;
+    }
+
+    .Card5
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+    #Mapa iframe
+    {
+        width: 150%;
+        height: 400px;
+    }
+
+    #Mapa
+    {
+        left: -110px;
+    }
+
+    #Foto img
+    {
+        width:80%;
+    }
+
+    #Foto
+    {
+        top: -320px;
+        left: 190px;
+    }
+
+
+    .Card4 img
+    {
+        width: 35%;
+        margin-left: 30px;
+    }
+
+
+    .Card4_2 img
+    {
+        width: 35%;
+        margin-right: 100px;
+    }
+
+
+    .CardHolder4_3
+    {
+        margin-top: 300px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #Instagram
+    {
+        margin-right: 110px;
+    }
+
+    .Card4_4 img
+    {
+        width: 35%;
+        margin-left: 100px;
+    }
+
+
+    .Card4_5 img
+    {
+        width: 35%;
+        margin-right: 100px;
+    }
+
+
+    .CardHolder4_6
+    {
+        margin-top: 290px;
+        margin-bottom: -50px;
+    }
+
+    #Facebook
+    {
+        margin-left: 404px;
+    }
+
+
+}
+
+
+
+@media(max-width: 915px)
+{
+
+
+
+    .Ubicacion #Titulo2 #Logo_Derecho
+    {
+        left: 530px;
+    }
+
+
+    #Mapa iframe
+    {
+        width: 130%;
+        margin-left: 30px;
+    }
+
+    #Foto img
+    {
+        width: 70%;
+        margin-right: 100px;
+    }
+
+
+}
+
+
+
+@media(max-width: 840px)
+{
+
+    #Titulo #Logo_Derecho
+    {
+        margin-right: 50px;
+    }
+
+
+    #Titulo #Logo_Izquierdo
+    {
+        margin-left: 50px;
+    }
+
+
+
+    #Mapa iframe
+    {
+        width:100%;
+        /*margin-left: 80px;*/
+    }
+
+    #Mapa
+    {
+        left: -50px;
+    }
+
+    #Foto img
+    {
+        width:65%;
+    }
+
+    #Foto
+    {
+        right:100px;
+    }
+
+
+    #Titulo2
+    {
+        margin-top: -20px;
+    }
+
+    #Titulo2 #Logo_Derecho
+    {
+        top: 50px;
+        margin-right: 50px;
+    }
+
+
+    #Titulo2 #Logo_Izquierdo
+    {
+        margin-left: 50px;
+    }
+
+
+    .CardHolder1
+    {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+
+    #Titulo3 #Logo_Derecho
+    {
+        
+        margin-right: 50px;
+    }
+
+
+    #Titulo3 #Logo_Izquierdo
+    {
+        margin-left: 50px;
+    }
+
+
+    #Telefonos p
+    {
+        font-size: 20px;
+    }
+
+
+    #Titulo4 #Logo_Derecho
+    {
+        margin-right: 50px;
+    }
+
+
+    #Titulo4 #Logo_Izquierdo
+    {
+        margin-left: 50px;
+    }
+
+
+    .CardHolder2
+    {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #Correos p
+    {
+        font-size: 20px;
+    }
+
+
+    .CardHolder3
+    {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #Creencias p
+    {
+        font-size: 20px;
+    }
+
+
+    #Titulo5 #Logo_Derecho
+    {
+        margin-right: 50px;
+    }
+
+
+    #Titulo5 #Logo_Izquierdo
+    {
+        margin-left: 50px;
+    }
+
+    
+    .Card4 img
+    {
+        width: 30%;
+        left: 100px;
+    }
+
+    .Card4_2 img
+    {
+        width: 30%;
+        right: 100px;
+    }
+
+
+    .CardHolder4_3
+    {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #RedesSociales p
+    {
+        font-size: 20px;
+    }
+
+
+    #Instagram
+    {
+        font-size: 20px;
+        right: 95px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+
+    .Card4_4 img
+    {
+        width: 30%;
+        left: 85px;
+    }
+
+
+    .Card4_5 img
+    {
+        width: 30%;
+        right: 85px;
+    }
+
+
+    #Facebook
+    {
+        font-size: 20px;
+        right: 95px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    #Contacto
+    {
+        font-size: 20px;
+        margin-left: 370px;
+    }
+
+    .Card5
+    {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .Ubicacion #Formulario_Contacto .CardHolder5 .Card5 h3
+    {
+        font-size: 30px;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 740px)
+{
+
+    #Mapa iframe
+    {
+        width: 100%;
+        
+    }
+
+
+    #Foto img
+    {
+        width: 65%;
+        
+    }
+
+
+    .Ubicacion #Titulo h2
+    {
+        position: relative;
+        left: 20px;
+        font-size: 35px;
+    }
+
+
+    #Titulo #Logo_Derecho
+    {
+        top: 35px;
+        margin-right: 90px;
+    }
+
+
+    #Titulo #Logo_Izquierdo
+    {
+        top: -110px;
+        margin-left: 70px;
+    }
+
+
+    .Ubicacion #Titulo2 h2
+    {   
+        font-size: 35px;
+    }
+
+
+    #Titulo2 #Logo_Derecho
+    {
+        top: 50px;
+        margin-right: 90px;
+    }
+
+
+    #Titulo2 #Logo_Izquierdo
+    {
+        top: -110px;
+        margin-left: 70px;
+    }
+
+
+    .Ubicacion #Titulo3 h2
+    {
+        font-size: 35px;
+        left: 350px;
+    }
+
+
+    #Titulo3 #Logo_Derecho
+    {
+        top: 35px;
+        margin-right: 90px;
+    }
+
+
+    #Titulo3 #Logo_Izquierdo
+    {
+        top: -110px;
+        margin-left: 70px;
+    }
+
+
+    .Ubicacion #Titulo4 h2
+    {
+        font-size: 35px;
+        
+    }
+
+
+    #Titulo4 #Logo_Derecho
+    {
+        top: 35px;
+        margin-right: 90px;
+    }
+
+
+    #Titulo4 #Logo_Izquierdo
+    {
+        top: -110px;
+        margin-left: 70px;
+    }
+
+
+
+    .Ubicacion #Titulo5 h2
+    {
+        position: relative;
+        font-size: 35px;
+        left: 345px;
+        
+    }
+
+
+    #Titulo5 #Logo_Derecho
+    {
+        top: 35px;
+        margin-right: 90px;
+    }
+
+
+    #Titulo5 #Logo_Izquierdo
+    {
+        top: -110px;
+        margin-left: 70px;
+    }
+
+    .Card4 img
+    {
+        width: 30%;
+        left: 150px;
+    }
+
+    .Card4_2 img
+    {
+        width: 30%;
+        right: 90px;
+    }
+
+    #Instagram
+    {
+        right: 120px;
+    }
+
+
+
+    #Contacto
+    {
+        font-size: 150%;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: 420px;
+    }
+
+}
+
+
+
+
+
+
+
+@media(max-width: 650px)
+{
+
+
+    #Mapa
+    {
+        position: relative;
+        top: 50px;
+        left: 95px;
+    }
+
+    #Foto
+    {
+        position: relative;
+        top: 100px;
+        left: -40px;
+    }
+
+    #Foto img
+    {
+        height: 370px;
+        width: 250px;
+    }
+
+
+    #Lugar
+    {
+        padding-bottom: 990px;
+    }
+
+
+    #Especificacion
+    {
+        position: relative;
+        top: 920px;
+        left: -230px;
+        margin-left: -190px;
+        margin-right: -190px;
+    }
+
+    #Especificacion h3
+    {
+        
+        font-size: 20px;
+    }
+
+
+    #Titulo2 #Logo_Izquierdo
+    {
+        margin-left:100px;
+    }
+
+
+    #Titulo2 #Logo_Derecho
+    {
+        margin-right: 740px;
+    }
+
+
+    .Card5 h3
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media(max-width: 635px)
+{
+
+    #Titulo
+    {
+        position: relative;
+        margin: 0px;
+        left: 55px;
+    }
+
+    #Titulo #Logo_Izquierdo
+    {
+        margin-left: 80px;
+    }
+
+    #Titulo #Logo_Derecho
+    {
+        margin-right: 190px;
+        margin-left: 0px;
+    }
+
+
+    #Titulo2
+    {
+        position: relative;
+        left: 10px;
+    }
+
+
+    #Titulo2 #Logo_Izquierdo
+    {
+        margin-left: 130px;
+    }
+
+    #Titulo2 #Logo_Derecho
+    {
+        margin-right: 780px;
+    }
+
+    #Telefonos .CardHolder1
+    {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+
+    #Titulo3
+    {
+        position: relative;
+        left: 10px;
+    }
+
+    #Titulo3 #Logo_Izquierdo
+    {
+        margin-left: 140px;
+        top: -109px;
+    }
+
+    #Titulo3 #Logo_Derecho
+    {
+        margin-right: 155px;
+    }
+
+    #Correos .CardHolder2
+    {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+
+
+    #Titulo4
+    {
+        position: relative;
+        left: 10px;
+    }
+
+    #Titulo4 #Logo_Izquierdo
+    {
+        margin-left: 140px;
+        top: -109px;
+    }
+
+    #Titulo4 #Logo_Derecho
+    {
+        margin-right: 155px;
+    }
+
+    #Creencias .CardHolder3
+    {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+
+
+    .Ubicacion #Titulo5
+    {
+        position: relative;
+        left: 10px;
+    }
+
+    .Ubicacion #Titulo5 h2
+    {
+        font-size: 30px;
+    }
+
+    #Titulo5 #Logo_Izquierdo
+    {
+        margin-left: 140px;
+        top: -105px;
+    }
+
+    #Titulo5 #Logo_Derecho
+    {
+        margin-right: 155px;
+    }
+
+
+    .Card4
+    {
+        position: relative;
+        left: 150px;
+        
+    }
+
+
+    .Card4_2
+    {
+        position: relative;
+        top: 250px;
+        right: 139px;
+    }
+
+
+    .CardHolder4_3
+    {
+        margin-top: 500px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .Card4_4
+    {
+        position: relative;
+        left: 140px;
+        
+    }
+
+    .Card4_5
+    {
+        position: relative;
+        top: 250px;
+        right: 149px;
+    }
+
+    #Facebook
+    {
+        right: 110px;
+    }
+
+    .CardHolder4_6
+    {
+        margin-top: 500px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+
+}

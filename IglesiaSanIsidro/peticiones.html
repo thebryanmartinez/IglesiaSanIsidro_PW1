@@ -52,10 +52,10 @@
                     <img src="img/peticiones/heropanel-sm.jpg" alt="">
                 </picture>
             </section>
-            <div class="peticiones">
+            <div class="subtitulo">
                 <h2>Peticiónes</h2>
             </div>
-            <div class="texto-peticiones">
+            <div class="texto">
             <p>
                 Las peticiónes son una forma de conocer
                 tus problemas e incertidumbres
@@ -72,13 +72,13 @@
             </p>
             <br>
             <p>
-                Las peticiones que envias son
+                Las peticiones que envias son 
                 completamente privadas.
             </p>
-            </div>          
-            <button class="btnpeticion" id="btnpeticion">
+            <button class="boton" id="btnpeticion">
                 <h3>Sube tu petición</h3>       
             </button>
+            </div>                      
 
             <!--Modal de subir peticion-->
             <div class="bg-modal" id="bg-modal">
@@ -108,7 +108,7 @@
                                 <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" />
                                 <label for="opcEntre">Entre 20 y 50</label>
                                 <br>                                
-                                <input type="radio" id="opcMayor" value="Mayor" name="opcEdad" />                                
+                                <input type="radio" id="opcMayor" value="MAYOR" name="opcEdad" />                                
                                 <label for="opcMayor">Mayor de 50</label>
                                 </div>
                             </div>             
@@ -119,20 +119,20 @@
                                 <label>Genero:&nbsp;</label>
                                 </div>
                                 <div class="opciones">                                                        
-                                <input type="radio" id="opcMenor" value="MENOR" checked name="opcEdad" />
-                                <label for="opcMenor">Masculino</label>
+                                <input type="radio" id="opcMasculino" value="MASCULINO" checked name="opcGenero" />
+                                <label for="opcMasculino">Masculino</label>
                                 <br>                                
-                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" />
-                                <label for="opcEntre">Femenino</label>
+                                <input type="radio" id="opcFemenino" value="FEMENINO" name="opcGenero" />
+                                <label for="opcFemenino">Femenino</label>
                                 <br>                            
-                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" /> 
-                                <label for="opcEntre">No binario</label>
+                                <input type="radio" id="opcNoBinario" value="NOBINARIO" name="opcGenero" /> 
+                                <label for="opcNoBinario">No binario</label>
                                 <br>                                
-                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" /> 
-                                <label for="opcEntre">Fluido</label>
+                                <input type="radio" id="opcFluido" value="FLUIDO" name="opcGenero" /> 
+                                <label for="opcFluido">Fluido</label>
                                 <br>
-                                <input type="radio" id="opcEntre" value="ENTRE" name="opcEdad" />
-                                <label for="opcEntre">Otro</label>                                                                                                                                                              
+                                <input type="radio" id="opcOtro" value="OTRO" name="opcGenero" />
+                                <label for="opcOtro">Otro</label>                                                                                                                                                              
                                 </div>
                             </div>  
                             <div>                
@@ -145,7 +145,7 @@
                             <button class="btnenviarpeticion">
                                 <h3>Enviar peticion</h3>       
                             </button>
-                            <button class="btncancelarpeticion">
+                            <button class="btncancelarpeticion" id="btncancelarpeticion">
                                 <h3>Cancelar</h3>       
                             </button>
                          </div>                        
@@ -153,11 +153,10 @@
                 </div>
             </div>
 
-
-            <div class="testimonios">
+            <div class="subtitulo">
                 <h2>Testimonios</h2>
             </div>
-            <div class="texto-testimonios">
+            <div class="texto">
                 <p>
                     Los testimonios son una forma de poder
                     relatar las experiencias que has tenido
@@ -175,18 +174,19 @@
                     Los testimonios enviados se revisaran para
                     su publicacion en la parte inferior.
                 </p>
+                <button class="boton" id="botontestimonio">
+                    <h3>Sube tu testimonio</h3>       
+                </button>
             </div>
-            <button class="btntestimonio">
-                <h3>Sube tu testimonio</h3>       
-            </button>
-            <div class="publicaciones">
+            
+            <div class="subtitulo">
                 <h2>Publicaciones</h2>
             </div>
             <section class="CardHolder">
                 <section class="Card">
                     <div class="CardHeader">
                         <img src="img/peticiones/logo-usuario.png" alt="">
-                        <h3>Ian Flores</h3>
+                        <h3>&nbspIan Flores</h3>
                     </div>
                     <p>
                         <strong>"</strong>Recibí a Jesús como mi Salvador, junto con mi esposa a los 23 años, hoy tenemos ya 59 y seguimos con El. Hemos pasado por muchas pruebas y tribulaciones, como dice La Palabra, pero de todas ellas nos ha librado El Señor.<strong>"</strong>
@@ -199,7 +199,7 @@
                 <section class="Card">
                     <div class="CardHeader">
                         <img src="img/peticiones/logo-usuario.png" alt="">
-                        <h3>Isidro Matamoros</h3>
+                        <h3>&nbsp Isidro Matamoros</h3>
                     </div>
                     <p>
                         <strong>"</strong>Llegué muy herido por diferentes fracasos y pecados de la vida hasta el encuentro de mayo 2016. El Señor me cambió, renovó, perdonó y aprendí a perdonar.<strong>"</strong>
@@ -212,7 +212,7 @@
                 <section class="Card">
                     <div class="CardHeader">
                         <img src="img/peticiones/logo-usuario.png" alt="">
-                        <h3>Heidi Martínez</h3>
+                        <h3>&nbsp Heidi Martínez</h3>
                     </div>
                     <p>
                         <strong>"</strong>Soy Heidy, tengo 21 años de edad. De niña me han inculcado la palabra de Dios y he tenido muchas experiencias las cuales hacen fortalecer mi confianza y amor hacia las cosas de Dios. Me he apartado de los caminos de la verdad , y he estado en las cosas del mundo sufriendo por una cosa u otra, pero siempre Dios me llama a rendirme ante El.<strong>"</strong>
@@ -220,8 +220,7 @@
                     <div class="corazon">
                         <img src="img/peticiones/corazon-publicacion.svg" alt="" class="corazonsvg">
                         <p>100</p>
-                    </div>
-                        
+                    </div>                        
                 </section>
             </section>
         </div>
