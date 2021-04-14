@@ -1,25 +1,25 @@
 document.addEventListener("DOMContentLoaded", function(){
-    const btnPeticion = document.getElementById('btnpeticion');
-    const modalPeticion = document.getElementById('bg-modal-peticion');    
+    const btntestimonio = document.getElementById('btntestimonio');
+    const modalTestimonio = document.getElementById('bg-modal-testimonio');    
     const nombreRegex = /^(?![\s.]+$)[a-zA-Z\s.]*$/; 
     const emailRegex = 	/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
 
-    var nombre = document.getElementById('txtNombre');   
-    var email = document.getElementById('txtEmail'); 
-    var mensaje = document.getElementById('txtPeticion');
-    var nombreError = document.getElementById('txtNombreErrorP');
-    var emailError = document.getElementById('txtEmailErrorP');         
-    var mensajeError = document.getElementById('txtPeticionError');
+    var nombre = document.getElementById('txtNombres');   
+    var email = document.getElementById('txtEmails'); 
+    var mensaje = document.getElementById('txtTestimonios');
+    var nombreError = document.getElementById('txtNombreError');
+    var emailError = document.getElementById('txtEmailError');         
+    var mensajeError = document.getElementById('txtTestimonioError');
 
     var existenErrores = false;    
 
-    btnPeticion.onclick = function(){
-        modalPeticion.style.display = "block";
+    btntestimonio.onclick = function(){
+        modalTestimonio.style.display = "block";
     }
 
     window.onclick = function(event) {
-        if (event.target == modalPeticion) {
-            modalPeticion.style.display = "none";                
+        if (event.target == modalTestimonio) {
+            modalTestimonio.style.display = "none";                
         }
     }
 
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function(){
         mensajeValue = mensaje.value.trim();
         
         if(mensajeValue === '' || mensajeValue === null){
-            mensajeError.innerHTML = "La peticion no puede estar vacio";
+            mensajeError.innerHTML = "El testimonio no puede estar vacio";
         } 
         else{
             mensajeError.innerHTML = '';

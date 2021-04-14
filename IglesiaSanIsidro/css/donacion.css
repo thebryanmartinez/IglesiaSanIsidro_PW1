@@ -146,11 +146,9 @@ strong{
     width: 100%;                                                                                                                      
 }
 
-.texto-porque-donar p{
-    color: black;
-    font-size: 18px;
-    text-align: left;
-    margin: 25px 0px;
+.texto-porque-donar .imagen2{
+    margin: 25px 0px 0px 0px;
+    width: 100%;                                                                                                                      
 }
 
 .entradadedatos textarea{
@@ -164,6 +162,12 @@ strong{
     font-size: 18px;
     width: 100%;
     border: 2px solid black;
+}
+
+.entradadedatos section{
+    font-size: 16px;
+    color: red;
+    margin: 0px;
 }
 
 @media(min-width: 600px){
@@ -278,7 +282,7 @@ strong{
     
     .texto-donaciones-inferior #izquierda{
         display: block;      
-        margin: 0px 40px 0px 20px;
+        margin: 20px 40px 20px 20px;
         align-self: center;  
     }    
 

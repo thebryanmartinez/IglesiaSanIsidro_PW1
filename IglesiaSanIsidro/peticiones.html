@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iglesia San Isidro - Peticiones</title>
     <link rel="stylesheet" href="css/peticiones.css">
     <link rel="stylesheet" href="css/header.css">
@@ -79,9 +79,8 @@
                 <h3>Sube tu petición</h3>       
             </button>
             </div>                      
-
-            <!--Modal de subir peticion-->
-            <div class="bg-modal" id="bg-modal">
+            
+            <div class="bg-modal" id="bg-modal-peticion">
                 <div class="modal-content">
                     <h3 class="titulo">Enviar peticion</h3>
                     <form action="" method="POST" class="formulario-peticion">
@@ -89,11 +88,13 @@
                             <div>                                
                                 <label for="txtNombre">Primer nombre:</label><br> 
                                 <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu primer nombre" />
+                                <section class="Error" id="txtNombreErrorP"></section>
                                 <br/>
                             </div>                            
                             <div>                
                                 <label for="txtEmail">Correo electronico:</label> <br>
                                 <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorre@electronico.com" />
+                                <section class="Error" id="txtEmailErrorP"></section>
                                 <br/>
                             </div>   
                             <div class="radiobuttons">
@@ -138,6 +139,7 @@
                             <div>                
                                 <label for="txtPeticion">Peticion:</label> <br>
                                 <textarea name="txtPeticion" id="txtPeticion" cols="10" rows="4"></textarea>
+                                <section class="Error" id="txtPeticionError"></section>
                                 <br>
                             </div>
                         </fieldset>
@@ -152,7 +154,6 @@
                     </form>
                 </div>
             </div>
-
             <div class="subtitulo">
                 <h2>Testimonios</h2>
             </div>
@@ -174,9 +175,70 @@
                     Los testimonios enviados se revisaran para
                     su publicacion en la parte inferior.
                 </p>
-                <button class="boton" id="botontestimonio">
+                <button class="boton" id="btntestimonio">
                     <h3>Sube tu testimonio</h3>       
                 </button>
+            </div>
+
+            <!--Modal testimonio-->
+            <div class="bg-modal" id="bg-modal-testimonio">
+                <div class="modal-content" id="modal-content-testimonio">
+                    <h3 class="titulo">Enviar testimonio</h3>
+                    <form action="" method="POST" class="formulario-peticion">
+                        <fieldset>
+                            <div>                                
+                                <label for="txtNombre">Nombre completo</label><br> 
+                                <input id="txtNombres" name="txtNombres" type="text" placeholder="Tu primer nombre" />
+                                <section class="Error" id="txtNombreError"></section>
+                                <br/>
+                            </div>                            
+                            <div>                
+                                <label for="txtEmail">Correo electronico:</label> <br>
+                                <input id="txtEmails" name="txtEmails" type="email" placeholder="tucorre@electronico.com" />
+                                <section class="Error" id="txtEmailError"></section>
+                                <br/>
+                            </div>                                        
+                            <div class="radiobuttons">
+                                <div>   
+                                <br>   
+                                <br>                                                                                        
+                                <label>Genero:&nbsp;</label>
+                                </div>
+                                <div class="opciones">                                                        
+                                <input type="radio" id="opcMasculino" value="MASCULINO" checked name="opcGeneroT" />
+                                <label for="opcMasculino">Masculino</label>
+                                <br>                                
+                                <input type="radio" id="opcFemenino" value="FEMENINO" name="opcGeneroT"/>
+                                <label for="opcFemenino">Femenino</label>
+                                <br>                            
+                                <input type="radio" id="opcNoBinario" value="NOBINARIO" name="opcGeneroT" /> 
+                                <label for="opcNoBinario">No binario</label>
+                                <br>                                
+                                <input type="radio" id="opcFluido" value="FLUIDO" name="opcGeneroT" /> 
+                                <label for="opcFluido">Fluido</label>
+                                <br>
+                                <input type="radio" id="opcOtro" value="OTRO" name="opcGenerT"/>
+                                <label for="opcOtro">Otro</label>                                                                                                                                                              
+                                </div>
+                            </div>  
+                            <div>                
+                                <label for="txtTestimonio">Testimonio:</label> <br>
+                                <textarea name="txtTestimonios" id="txtTestimonios" cols="10" rows="4"></textarea>
+                                <section class="Error" id="txtTestimonioError"></section>
+                                <br>
+                            </div>
+                            <div class="botonespeticion">
+                                <button class="btnenviarpeticion">
+                                    <h3>Enviar testimonio</h3>       
+                                </button>
+                                <a href="peticiones.html"><button class="btncancelarpeticion" id="btncancelartestimonio">
+                                    <h3>Cancelar</h3>       
+                                </button></a>                            
+                             </div>
+                        </fieldset>
+                                                
+                    </form>
+                </div>
             </div>
             
             <div class="subtitulo">
@@ -241,6 +303,7 @@
         </div>
     </footer>
     <script src="js/peticiones.js"></script>
+    <script src="js/testimonios.js"></script>
 </body>
 
 </html>

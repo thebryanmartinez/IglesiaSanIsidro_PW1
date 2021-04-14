@@ -116,17 +116,20 @@
             <fieldset>
                 <div>                                
                     <label for="txtNombre">Nombre Completo:</label> <strong>*</strong> <br> 
-                    <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu nombre completo" />
+                    <input id="txtNombre" name="txtNombre" type="text" placeholder="Tu nombre completo"/>                    
+                    <section class="Error" id="txtNombreError"></section>
                     <br/>
                 </div>
                 <div>                
                     <label for="txtPhone">Telefono:</label> <br>
-                    <input id="txtPhone" name="txtPhone" type="tel" placeholder="+(504)dddddddd" />
+                    <input id="txtPhone" name="txtPhone" type="tel" placeholder="12345789" />
+                    <section class="Error" id="txtPhoneError"></section>
                     <br/>
                 </div>
                 <div>                
                     <label for="txtEmail">Correo Electronico:</label> <br>
                     <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorre@electronico.com" />
+                    <section class="Error" id="txtEmailError"></section>
                     <br/>
                 </div>
                 <div>                
@@ -141,22 +144,25 @@
                 </div>
                 <div>                
                     <label for="txtDonar">Monto a donar: <strong>*</strong></label> <br>
-                    <input id="txtDonar" name="txtDonar" type="number" placeholder="Monto a donar" />
+                    <input id="txtDonar" name="txtDonar" type="number" placeholder="Monto a donar. Ex: 100.10" />
+                    <section class="Error" id="txtDonarError"></section>
                     <br/>
                 </div>
                 <div>                
                     <label for="txtCuenta">Numero de cuenta: <strong>*</strong></label> <br>
                     <input id="txtCuenta" name="txtCuenta" type="text" placeholder="Tu numero de cuenta" />
+                    <section class="Error" id="txtCuentaError"></section>
                     <br/>
                 </div>
                 <div>                
                     <label for="txtMensaje">Mensaje (Opcional):</label> <br>
                     <textarea name="txtMensaje" id="txtMensaje" cols="10" rows="1"></textarea>
+                    <section class="Error" id="txtMensajeError"></section>
                     <br/>
                 </div>
             </fieldset>            
         </form>
-        <button class="boton">            
+        <button class="boton" id="btnDonar">            
             <h3>Donar</h3> 
         </button>
         <div class="subtitulo">
