@@ -15,6 +15,7 @@ body{
     margin: 0px auto;
    
 }
+
 #contenedor2{
     width: 800px;
     height: 200px;
@@ -36,16 +37,17 @@ body{
    text-align: left;
 
 }
+
 #contenedor2 p {
     margin: 0px 20px;
     padding-top: 60px;
     color: #000000;
     text-align: left;
     
- }
+}
+
 #uno {
-   
-     position: absolute;
+    position: absolute;
     background-color:  #C4C4C4;
     top: -15px;
     left: 0px;
@@ -55,9 +57,9 @@ body{
     height: 50px;
     box-shadow: 5px 5px 10px #999;
     border-radius: 10px;
-  }
+}
 
-  #uno .tema {
+#uno .tema {
     font-family: 'Monserrat', sans-serif;
     padding: 10px;
     font-weight: bold;
@@ -76,9 +78,9 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-  margin:0px auto;
-  padding:3%;
-  border: 2px solid black;
+    margin:0px auto;
+    padding:3%;
+    border: 2px solid black;
   
 }
 
@@ -132,7 +134,6 @@ body{
   }
   #contenedor p {
       font-size: 20px;
-   
    }
    #contenedor2 p {
        font-size: 20px;

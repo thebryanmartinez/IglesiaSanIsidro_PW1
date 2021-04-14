@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Iglesia San Isidro - Contacto</title>
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/header.css">
@@ -50,51 +48,48 @@
             </div>
             
             <div id="Formulario">
-                <div id="Contenedor">
-                        
-                        <form id="form" autocomplete="off">
-            
-                            <div>
-                                <label for="nombre">Ingrese su Nombre</label>
+                <div id="Contenedor">                        
+                    <form id="form" autocomplete="off">        
+                        <div>
+                            <label for="nombre">Ingrese su Nombre</label>
+                            <br>
+                            <input id="nombre" name="nombre" type="text">
+                            <div id="error_nombre">Ingrese un nombre valido</div>
+                        </div>
+                        <div>
+                            <label for="correo">Ingrese su Correo</label>
+                            <br>
+                            <input id="correo" name="correo" type="text">
+                            <div id="error_correo">Ingrese un correo valido</div>
+                        </div>
+                        <div>
+                            <label for="telefono">Ingrese su Número de Telefono</label>
+                            <br>
+                            <input id="telefono" name="telefono" type="text">
+                            <div id="error_telefono">Ingrese un número de telefono valido</div>
+                        </div>
+                        <div>
+                            <label id="genero" for="genero">Género:</label>
+                            <div id="error_genero">Elija un género</div>
+                            <br>
+                            <div id="radio_btns">
+                                <p>Masculino</p>
+                                <input id="masculino" name="genero" type="radio">
                                 <br>
-                                <input id="nombre" name="nombre" type="text">
-                                <div id="error_nombre">Ingrese un nombre valido</div>
+                                <p>Femenino</p>
+                                <input id="femenino" name="genero" type="radio">
                             </div>
-                            <div>
-                                <label for="correo">Ingrese su Correo</label>
-                                <br>
-                                <input id="correo" name="correo" type="text">
-                                <div id="error_correo">Ingrese un correo valido</div>
-                            </div>
-                            <div>
-                                <label for="telefono">Ingrese su Número de Telefono</label>
-                                <br>
-                                <input id="telefono" name="telefono" type="text">
-                                <div id="error_telefono">Ingrese un número de telefono valido</div>
-                            </div>
-                            <div>
-                                <label id="genero" for="genero">Género:</label>
-                                <div id="error_genero">Elija un género</div>
-                                <br>
-                                <div id="radio_btns">
-                                    <p>Masculino</p>
-                                    <input id="masculino" name="genero" type="radio">
-                                    <br>
-                                    <p>Femenino</p>
-                                    <input id="femenino" name="genero" type="radio">
-                                </div>
-                            </div>
-                            <div id="mensaje_enviar">
-                                <div id="error_mensaje">Ingrese un mensaje</div>
-                                <label for="mensaje">Ingrese su Mensaje</label>
-                                <br>
-                                <textarea name="mensaje" id="mensaje" cols="67" rows="11"></textarea>
-                            </div>
-                            <button id="btnenviar">Enviar Mensaje</button>
-                        </form>
+                        </div>
+                        <div id="mensaje_enviar">
+                            <div id="error_mensaje">Ingrese un mensaje</div>
+                            <label for="mensaje">Ingrese su Mensaje</label>
+                            <br>
+                            <textarea name="mensaje" id="mensaje" cols="67" rows="11"></textarea>
+                        </div>
+                        <button id="btnenviar">Enviar Mensaje</button>
+                    </form>
                 </div>
             </div>
-
         </section>
     </main>
     <footer>
@@ -103,7 +98,6 @@
                 <div class="info">
                     <p><strong>Creado por </strong><strong class="footer-dentro">staff de ingeniera de sistemas de iglesia San Isidro.</strong><strong> Derechos reservados 2020</strong></p>
                 </div>
-
                 <div class="Siguenos">
                     <p>Siguenos en:
                         <a href="https://www.instagram.com/sanisidrohn/"><img src="img/footer/logo-instagram.png" alt=""></a>
@@ -112,9 +106,7 @@
                 </div>
             </div>
         </div>
-
     </footer>
     <script src="js/contacto.js"></script>
 </body>
-
 </html>
