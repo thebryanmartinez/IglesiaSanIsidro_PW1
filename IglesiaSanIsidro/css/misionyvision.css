@@ -46,7 +46,7 @@ body{
  }
 #uno {
    
-     position: absolute;
+    position: absolute;
     background-color:  #C4C4C4;
     top: -15px;
     left: 0px;
@@ -68,28 +68,52 @@ body{
 
 
 
-
 @media (min-width: 640px) {
     main {
         max-width: 800px;
-        height: fit-content;
         margin:  auto;
     }
-   #contenedor{
-       align-items: center;
-
-   }
-    
-    
-
+    #contenedor {
+        align-items: center;
+        min-height: 300px;
+        min-width: 250px;   
+    } 
+    #contenedor2 {
+        align-items: center;
+        min-height: 300px;
+        min-width: 250px; 
+    }
+    #contenedor p {
+        font-size: 22px;
+     
+     }
+     #contenedor2 p {
+         font-size: 22px;
+      }
 }
-
 @media (min-width:1200px) {
     main {
         max-width: 2000px;
         height: fit-content;
         margin: 1rem auto;
     }
-    
+    #contenedor {
+        align-items: center;
+        min-width: 800px;
+        min-height: 250px;  
+    } 
+    #contenedor2 {
+        align-items: center;
+        min-width: 800px;
+        min-height: 250px;  
+    }
+    #contenedor p {
+        font-size: 20px;
+     
+     }
+     #contenedor2 p {
+         font-size: 20px;
+      }
 }
-    
+
+
