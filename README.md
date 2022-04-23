@@ -10,9 +10,10 @@ This project is hosted with Github Pages, so if you want to check out the page y
 It is very easy to navigate through the website at its only a static website. With the header you can navigate through every page and see their information. 
 
 ## Credits to the team
-The team who help me elaborate this project are partners of the same university for the same class. These are their names and Github profiles: 
-- Andres Archila https://github.com/JSalgado17
-- Isidro Matamoros https://github.com/JSalgado17
-- Jose Jorge Barahona https://github.com/jbjorgebarahona
-- Jose Cisne https://github.com/Mando3500673
-- Jorge Salgado https://github.com/JSalgado17
+The team who help me elaborate this project are partners of the same university for the same class. These are Github profiles (including me): 
+- [@Bryanmartz972](https://github.com/Bryanmartz972) 
+- [@Archila21](https://github.com/Archila21)
+- [@isidroscrumaster69](https://github.com/isidroscrumaster69)
+- [@jbjorgebarahona](https://github.com/jbjorgebarahona)
+- [@Mando3500673](https://github.com/Mando3500673)
+- [@JSalgado17](https://github.com/JSalgado17)
