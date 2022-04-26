@@ -1,16 +1,15 @@
-# Project Iglesia San Isidro
-This is a project elaborated for the class of Introduction to Web Development I. This is the first project the settle me into web development using the basic skills to make a website. It was made by a team of 6 people led by me.
-## Description of the project
-This project is a static website created with HTML, CSS and Javascript. This project shows information about a fictional church called "Iglesia San Isidro", that contains information about the church, has a fictional form to make donations to the church as well that it was implemented with responsive design. It was our first time creating a responsive design for a website, but we overcome this challenge and resulted in a great user experience no matter in which device its viewed.
+# Proyecto Iglesia San Isidro
+Este es un proyecto elaborado para la clase de Portales Web I. Este es el primer proyecto que me puso en el camino del desarrollo web usando las habilidades y herramientas básicas para realizar una aplicación web. Este proyecto fue hecho por un equipo de 6 personas lideradas por mí. 
 
-## Check the project
-This project is hosted with Github Pages, so if you want to check out the page you can click on the "github-pages" text in the "Environments" section to the right. 
+## Descripción del proyecto
+Este proyecto es una página web estática creada con HTML, CSS y Javascript. Este proyecto muestra información sobre una iglesia ficticia llamada "Iglesia San Isidro", que contiene información de una iglesia, tiene un formulario ficticio para realizar donaciones, al igual que se implementó un diseño responsivo a la página. 
+Esta fue nuestra primera vez creando una página web con diseño responsivo, pero logramos superar este desafío y resultó en una gran experiencia para el usuario, no importa desde que dispositivo se encuentra el usuario.
 
-## Using the project
-It is very easy to navigate through the website at its only a static website. With the header you can navigate through every page and see their information. 
+## Ver el proyecto
+Este proyecto está siendo alojado con GitHub Pages, así que si se quiere ver la página web, se puede cliquear el texto de "github-pages" en la sección de "Entornos" de la derecha. 
 
 ## Credits to the team
-The team who help me elaborate this project are partners of the same university for the same class. These are Github profiles (including me): 
+El equipo que me ayudo a elaborar este proyecto son compañeros de la misma universidad para la misma clase. Estos son los perfiles de GitHub del equipo (incluyéndome):
 - [@Bryanmartz972](https://github.com/Bryanmartz972) 
 - [@Archila21](https://github.com/Archila21)
 - [@isidroscrumaster69](https://github.com/isidroscrumaster69)
