@@ -8,7 +8,7 @@ Esta fue nuestra primera vez creando una página web con diseño responsivo, per
 ## Ver el proyecto
 Este proyecto está siendo alojado con GitHub Pages, así que si se quiere ver la página web, se puede cliquear el texto de "github-pages" en la sección de "Entornos" de la derecha. 
 
-## Credits to the team
+## Autores
 El equipo que me ayudo a elaborar este proyecto son compañeros de la misma universidad para la misma clase. Estos son los perfiles de GitHub del equipo (incluyéndome):
 - [@Bryanmartz972](https://github.com/Bryanmartz972) 
 - [@Archila21](https://github.com/Archila21)
