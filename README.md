@@ -1,18 +1,30 @@
-# Proyecto Iglesia San Isidro
-Este es un proyecto elaborado para la clase de Portales Web I. Este es el primer proyecto que me puso en el camino del desarrollo web usando las habilidades y herramientas básicas para realizar una aplicación web. Este proyecto fue hecho por un equipo de 6 personas lideradas por mí. 
 
-## Descripción del proyecto
-Este proyecto es una página web estática creada con HTML, CSS y Javascript. Este proyecto muestra información sobre una iglesia ficticia llamada "Iglesia San Isidro", que contiene información de una iglesia, tiene un formulario ficticio para realizar donaciones, al igual que se implementó un diseño responsivo a la página. 
-Esta fue nuestra primera vez creando una página web con diseño responsivo, pero logramos superar este desafío y resultó en una gran experiencia para el usuario, no importa desde que dispositivo se encuentra el usuario.
+![San Isidro Church Banner](san-isidro-church-banner.png)
 
-## Ver el proyecto
-Este proyecto está siendo alojado con GitHub Pages, así que si se quiere ver la página web, se puede cliquear el texto de "github-pages" en la sección de "Entornos" de la derecha. 
+![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 
-## Autores
-El equipo que me ayudo a elaborar este proyecto son compañeros de la misma universidad para la misma clase. Estos son los perfiles de GitHub del equipo (incluyéndome):
-- [@Bryanmartz972](https://github.com/Bryanmartz972) 
+# San Isidro Church
+This is a project made for the Web Portals I class. This is the first project that put me on the path of web development using the basic skills and tools to make a web application. This project was made by a team of 6 people led by me.
+## Description
+
+This project is a static web page created with HTML, CSS and Javascript. This project shows information about a fictitious church called "Iglesia San Isidro", which contains information about a church, has a fictitious form to make donations, as well as a responsive design to the page. This was our first time creating a website with responsive design, but we managed to overcome this challenge and it resulted in a great user experience, no matter what device the user is on.
+
+## Tech Stack
+
+- ⚙️ HTML
+- 🎨 CSS
+- ⚙️ Javascript
+
+
+
+## Authors
+
+Here are the GitHub profiles of the team members (including me) who made this web app a reality:
+
+- [@thebryanmartinez](https://github.com/thebryanmartinez) 
 - [@Archila21](https://github.com/Archila21)
 - [@isidroscrumaster69](https://github.com/isidroscrumaster69)
 - [@jbjorgebarahona](https://github.com/jbjorgebarahona)
 - [@Mando3500673](https://github.com/Mando3500673)
-- [@JSalgado17](https://github.com/JSalgado17)
